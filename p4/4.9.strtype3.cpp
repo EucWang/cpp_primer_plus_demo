@@ -2,7 +2,7 @@
 #include <string>  // make string class available
 #include <cstring> //c-style string library
 
-int main()
+int main7()
 {
     using namespace std;
     cout.setf(ios_base::fixed, ios_base::floatfield);

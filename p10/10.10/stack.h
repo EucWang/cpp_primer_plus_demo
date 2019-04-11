@@ -8,7 +8,7 @@ typedef unsigned long Item;
  * ADT
  * 用数组模拟栈结构
  */ 
-class Stack {
+class Stack10 {
     private:
       enum
       {
@@ -18,7 +18,7 @@ class Stack {
       int top;
       
     public:
-      Stack();
+      Stack10();
       bool is_empty() const;
       bool is_full() const;
       bool push(const Item & item);

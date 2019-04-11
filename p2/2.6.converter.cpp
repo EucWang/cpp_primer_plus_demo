@@ -2,7 +2,7 @@
 
 int stoneToLb(int sts);
 
-int main()
+int main173()
 {
 
     using namespace std;

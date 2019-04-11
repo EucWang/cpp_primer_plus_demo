@@ -7,7 +7,7 @@ using namespace std;
 /**
  * g++ usett0.cpp tabtenn0.cpp 
  */ 
-void test1(){
+void test131(){
 
     TableTennisPlayer player1("Chuck", "Blizzard", true);
     TableTennisPlayer player2("Tara", "Boomdea", false);
@@ -39,7 +39,7 @@ void show(const TableTennisPlayer & rt) {
     } 
 }
 
-void test2(){
+void test132(){
     TableTennisPlayer player1("Tara", "Boomdea", false);
     RatedPlayer rplayer1(1140, "Mallory", "Duck", true);
 
@@ -69,11 +69,11 @@ void test2(){
     cout << "; Rating : " << rplayer2.getRating() << endl;
 }
 
-int main(){
+int main290(){
 
     using std::cout, std::endl;
 
-    // test1();
-    test2();
+    // test131();
+    test132();
     return 0;
 }

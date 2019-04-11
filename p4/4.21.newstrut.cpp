@@ -6,7 +6,7 @@ struct inflatable {
     double price;
 };
 
-int main()
+int main93()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

@@ -9,7 +9,7 @@ using std::atan2;
 using std::cout;
 using std::endl;
 
-namespace VECTOR {
+namespace VECTOR91 {
 
     const double RAD_TO_DEG = 45.0/atan(1.0);
 

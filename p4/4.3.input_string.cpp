@@ -8,7 +8,7 @@
  * 
  */ 
 
-int main()
+int main71()
 {
     using namespace std;
     cout.setf(ios_base::fixed, ios_base::floatfield);

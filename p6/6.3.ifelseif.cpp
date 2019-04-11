@@ -2,7 +2,7 @@
 
 const int Fave = 27;
 
-int main()
+int main174()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

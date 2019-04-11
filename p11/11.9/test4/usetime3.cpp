@@ -2,26 +2,26 @@
 #include "mytime3.h"
 using namespace std;
 
-int main() {
+int main79() {
     
-    Time planning;
-    Time weeding(4, 25);
-    Time waxing(2, 47);
-    Time total;
-    Time diff;
-    Time adjusted;
+    Time94 planning;
+    Time94 weeding(4, 25);
+    Time94 waxing(2, 47);
+    Time94 total;
+    Time94 diff;
+    Time94 adjusted;
 
-    cout << "weeding time = " ;
+    cout << "weeding Time94 = " ;
     // weeding.show();
     cout << weeding;
     cout << endl;
 
-    cout << "waxing time = " ;
+    cout << "waxing Time94 = " ;
     // waxing.show();
     cout << waxing;
     cout << endl;
 
-    cout << "total work time = " ;
+    cout << "total work Time94 = " ;
     total = weeding + waxing;
     // total.show();
     cout << total;
@@ -29,12 +29,12 @@ int main() {
 
 
     diff = weeding - waxing;
-    cout << "weeding - waxing time = " << diff;
+    cout << "weeding - waxing Time94 = " << diff;
     // diff.show();
     cout << endl;
 
     adjusted =  1.5 * total;
-    cout << "adjusted work time = " << adjusted;
+    cout << "adjusted work Time94 = " << adjusted;
     // adjusted.show();
 
     cout << endl;

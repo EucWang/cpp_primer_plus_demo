@@ -14,7 +14,7 @@ const int MAX = 5;
  * 
  * 如果数组被填满或者输入来非数字输入， 循环将结束。
  */ 
-int main()
+int main98()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

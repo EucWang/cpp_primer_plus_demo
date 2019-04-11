@@ -4,7 +4,7 @@
 using namespace std;
 using namespace SALES;
 
-int main()
+int main104()
 {
     cout.setf(ios_base::fixed);
     cout.precision(3);

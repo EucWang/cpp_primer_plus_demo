@@ -5,7 +5,7 @@ template <typename T> T maxn(T * arr, int n);
 
 template<> char* maxn(char * arr[], int n);
 
-int main()
+int main99()
 {
     //cout.setf(ios_base::fixed, ios_base::floatfield);
     //cout<<endl;

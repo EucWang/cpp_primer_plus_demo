@@ -4,7 +4,7 @@
  */ 
 #include <iostream>
 
-int main()
+int main155()
 {
     using namespace std;
     float hats, heads;

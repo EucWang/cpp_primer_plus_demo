@@ -8,11 +8,11 @@ const int MIN_PER_HR = 60;
 
 using namespace std;
 //是否有新的Customer来到
-bool newcustomer(double x) {
+bool newcustomer1210(double x) {
     return (rand() * x / RAND_MAX) < 1;
 }
 
-int main(){
+int main64(){
     
     srand(time(0));  //随机数初始化
 
@@ -20,8 +20,8 @@ int main(){
     cout << "Enter maximum size of queue: ";
     int qs;
     cin >> qs;
-    Queue line1(qs);  //初始化 队列
-    Queue line2(qs);  //初始化 队列
+    Queue1210 line1(qs);  //初始化 队列
+    Queue1210 line2(qs);  //初始化 队列
 
     cout << "Enter the number of simulation hours: ";
     int hours;
@@ -45,7 +45,7 @@ int main(){
     long line_wait2 = 0;
 
     for(int cycle = 0; cycle < cyclelimit; cycle ++) {//一分钟循环一次
-        if(newcustomer(min_per_cust)) { //根据 每小时顾客平均数量 来随机获取当前循环是否有新顾客进来
+        if(newcustomer1210(min_per_cust)) { //根据 每小时顾客平均数量 来随机获取当前循环是否有新顾客进来
             cout << "come in a customer." << endl;
             if(line1.isfull() && line2.isfull()) {
                 turnaways++;

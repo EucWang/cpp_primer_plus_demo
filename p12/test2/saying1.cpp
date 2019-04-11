@@ -6,7 +6,7 @@ using namespace std;
 const int ArSize = 10;
 const int MaxLen = 81;
 
-int main() {
+int main60() {
     
     using std::cout;
     using std::cin;

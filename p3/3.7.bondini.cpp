@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main()
+int main168()
 {
     cout << "\aOperation \"HyperHype\" is now activated!\n";
     cout << "Enter your agent code:______\b\b\b\b\b\b";

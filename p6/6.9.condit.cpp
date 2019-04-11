@@ -4,7 +4,7 @@
  * ?: 三元操作符
  * 
  */ 
-int main()
+int main180()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

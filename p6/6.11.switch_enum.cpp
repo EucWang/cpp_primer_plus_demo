@@ -10,7 +10,7 @@ enum {
 /**
  * switch 语句结合enum 来使用
  */ 
-int main()
+int main201()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

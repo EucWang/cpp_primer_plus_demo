@@ -4,7 +4,7 @@ using namespace std;
 
 void strcount(string & str);
 
-int main()
+int main221()
 {
    
     string input;

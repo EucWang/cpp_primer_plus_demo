@@ -13,7 +13,7 @@ void show_box(box b);
 
 void auto_set_box_volume(box * b);
 
-int main() {
+int main52() {
    
     // cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;

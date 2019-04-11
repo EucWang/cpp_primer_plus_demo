@@ -6,7 +6,7 @@
  * 例如： int* pt = new int;
  */ 
 
-int main()
+int main151()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

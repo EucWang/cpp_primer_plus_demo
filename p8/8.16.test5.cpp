@@ -3,7 +3,7 @@ using namespace std;
 
 template <typename T> T max5(T * arr);
 
-int main()
+int main240()
 {
     //cout.setf(ios_base::fixed, ios_base::floatfield);
     //cout<<endl;

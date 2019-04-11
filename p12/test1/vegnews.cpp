@@ -5,7 +5,7 @@ using namespace std;
 void callme1(StringBad &);
 void callme2(StringBad);
 
-int main()
+int main68()
 {
    
    {

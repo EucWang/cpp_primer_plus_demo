@@ -1,11 +1,11 @@
 #include <iostream>
-#include "list.cpp"
+#include "list.h"
 
 // using namespace std;
 using std::cout;
 using std::endl;
 
-int main()
+int main268()
 {
     List list = List(5);
     cout << "list is empty ? : "<< list.isempty() << endl;

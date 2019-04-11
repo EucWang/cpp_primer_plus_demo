@@ -12,7 +12,7 @@ using std::cin;
 using std::endl;
 
 
-int main() {
+int main112() {
 
     srand(time(0));
     cout << "Please enter stack size : ";

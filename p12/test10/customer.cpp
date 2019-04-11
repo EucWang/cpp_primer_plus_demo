@@ -3,12 +3,12 @@
 
 using namespace std;
 
-void Customer::set(long when) {
+void Customer1210::set(long when) {
     processtime = rand() % 3 + 1;
     arrive = when;
 }
 
-std::ostream & operator<<(std::ostream & os, Customer & c) {
-    os << "Customer [ processtime : " << c.processtime << ", " << "arrive : "<< c.arrive << "]" << endl;
+std::ostream & operator<<(std::ostream & os, Customer1210 & c) {
+    os << "Customer1210 [ processtime : " << c.processtime << ", " << "arrive : "<< c.arrive << "]" << endl;
     return os;
 }

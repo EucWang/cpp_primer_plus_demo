@@ -9,7 +9,7 @@ void show_array(const double ar[], int n);
 void revalue(double r, double ar[], int n);
 
 
-int main()
+int main281()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

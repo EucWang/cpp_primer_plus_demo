@@ -3,14 +3,14 @@
 using namespace std;
 
 
-int main() {
+int main129() {
     
-    Time planning;
-    Time weeding(4, 25);
-    Time waxing(2, 47);
-    Time total;
-    Time diff;
-    Time adjusted;
+    Time2 planning;
+    Time2 weeding(4, 25);
+    Time2 waxing(2, 47);
+    Time2 total;
+    Time2 diff;
+    Time2 adjusted;
 
     cout << "weeding time = " ;
     weeding.show();

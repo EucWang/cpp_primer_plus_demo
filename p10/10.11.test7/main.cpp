@@ -4,7 +4,7 @@
 using namespace std;
 
 
-int main()
+int main207()
 {
     Plorg p1 = Plorg();
 

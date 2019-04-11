@@ -6,7 +6,7 @@ using namespace std;
 
 void str_upper(string& str);
 
-int main()
+int main247()
 {
     string tmp;
     cout << "Enter a string(q to quit) : ";

@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-char * get_name(){
+char * get_name4(){
     char tmp[256];
     cin.getline(tmp, 256);
     char * ret_val = new char(strlen(tmp) + 1);
@@ -10,7 +10,7 @@ char * get_name(){
     return ret_val;
 }
 
-int main() {
+int main5() {
    
     // cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;
@@ -24,12 +24,12 @@ int main() {
     cout << "Enter your name:\n";
     // cin.getline(name, arSize); //reads through newline
     // cin >> name;
-    name = get_name();
+    name = get_name4();
 
     cout << "Enter your favorite dessert:\n";
     // cin.getline(dessert, arSize);
     // cin >> dessert;
-    dessert = get_name();
+    dessert = get_name4();
 
     cout << "I have some delicious "<< dessert;
     cout << " for you, " << name << ".\n";

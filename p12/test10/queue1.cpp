@@ -3,12 +3,12 @@
 
 using namespace std;
 
-Queue::Queue(int qs):qsize(qs) {
+Queue1210::Queue1210(int qs):qsize(qs) {
     front = rear = NULL;
     items = 0;
 }
 
-bool Queue::enqueue(const Item & item) {
+bool Queue1210::enqueue(const Item & item) {
     if(isfull()) {
         return false;
     }
@@ -25,19 +25,19 @@ bool Queue::enqueue(const Item & item) {
     return true;
 }
 
-bool Queue::isempty() const {
+bool Queue1210::isempty() const {
     return items == 0;
 }
 
-bool Queue::isfull() const {
+bool Queue1210::isfull() const {
     return items == qsize;
 }
 
-int Queue::queuecount() const {
+int Queue1210::queuecount() const {
     return items;
 }
 
-bool Queue::dequeue(Item & item) {
+bool Queue1210::dequeue(Item & item) {
     if(front == NULL) {
         return false;
     }
@@ -52,7 +52,7 @@ bool Queue::dequeue(Item & item) {
     return true;
 }
 
-Queue::~Queue(){
+Queue1210::~Queue1210(){
     Node * temp;
     while(front != NULL) {
         temp = front;

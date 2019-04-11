@@ -6,7 +6,7 @@ void other(void);
 void another(void);
 
 
-int main()
+int main224()
 {
     using debts::Debt;
     using debts::showDebt;

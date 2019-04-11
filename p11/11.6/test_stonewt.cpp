@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main(){
+int main200(){
     //如果构造函数只接受一个参数，
     //那么可以使用隐式的类型转换，直接将值作为左值赋值给对对象
     // Stonewt a = 12.5;

@@ -6,7 +6,7 @@
  * strlen() 计算的是存储再数组中的字符串长度
  */ 
 
-int main()
+int main2()
 {
     using namespace std;
     cout.setf(ios_base::fixed, ios_base::floatfield);

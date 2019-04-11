@@ -48,7 +48,7 @@ void AcctABC::withdraw(double amt) {
 /**
  * 取钱
  */ 
-void Brass::withdraw(double amt){
+void Brass133::withdraw(double amt){
     if(amt < 0) {
         std::cout << "Withdrawal amount must be positive;"
             << "Withdrawal canceled." << std::endl;
@@ -64,7 +64,7 @@ void Brass::withdraw(double amt){
 /**
  * 显示账户信息
  */ 
-void Brass::viewAcct() const{
+void Brass133::viewAcct() const{
     AcctABC::Formatting f = setFormat();
     std::cout << std::endl;
     std::cout << "Brass Client: "<< getFullname() << std::endl;
@@ -74,29 +74,29 @@ void Brass::viewAcct() const{
     restore(f);
 }
 
-//===============BrassPlus 派生类2 可以透支的账户======================
+//===============BrassPlus133 派生类2 可以透支的账户======================
 
 /**
  * constructor
  */ 
-BrassPlus::BrassPlus(const std::string & s, long an, double bal, double ml, double r)
+BrassPlus133::BrassPlus133(const std::string & s, long an, double bal, double ml, double r)
         : AcctABC(s, an, bal), maxloan(ml), rate(r), owesBank(0.0){}
 
 /**
  * constructor, call base class's copy constructor
  */ 
-BrassPlus::BrassPlus(const Brass & ba, double ml, double r)
+BrassPlus133::BrassPlus133(const Brass133 & ba, double ml, double r)
         : AcctABC(ba), maxloan(ml), rate(r) , owesBank(0.0){}
 
 
 /**
  * 显示账户信息
  */ 
-void BrassPlus::viewAcct() const{
+void BrassPlus133::viewAcct() const{
     AcctABC::Formatting f = setFormat();
 
     std::cout << std::endl;
-    std::cout << "BrassPlus Client: "<< getFullname() << std::endl;
+    std::cout << "BrassPlus133 Client: "<< getFullname() << std::endl;
     std::cout << "Account Number: " << getAcctNum() << std::endl;
     std::cout << "Balance: $" << getBalance() << std::endl;
     std::cout << "Maximum loan: $" << maxloan << std::endl;
@@ -111,7 +111,7 @@ void BrassPlus::viewAcct() const{
 /**
  * 取钱，可以透支
  */ 
-void BrassPlus::withdraw(double amt){
+void BrassPlus133::withdraw(double amt){
     AcctABC::Formatting f = setFormat();
 
     double bal = getBalance();

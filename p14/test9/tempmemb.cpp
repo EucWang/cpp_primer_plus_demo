@@ -31,7 +31,7 @@ class Beta {
         void show() const { q.show(); n.show();};
 };
 
-int main() {
+int main111() {
     Beta<double>  guy(3.5, 3);
     cout << "T was set to double.\n";
     guy.show();

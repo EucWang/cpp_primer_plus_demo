@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main() {
+int main22() {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;

@@ -13,7 +13,7 @@ void comfort();
  * switch语句
  * 
  */ 
-int main()
+int main289()
 {
     // cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;

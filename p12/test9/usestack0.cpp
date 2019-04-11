@@ -4,7 +4,7 @@
 using namespace std;
 
 
-int main() {
+int main128() {
 
     Stack a(10);
     Stack b(20);

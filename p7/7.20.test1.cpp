@@ -8,7 +8,7 @@
  */ 
 double harmonic_mean(double a, double b);
 
-int main()
+int main285()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

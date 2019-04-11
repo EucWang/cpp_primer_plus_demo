@@ -31,7 +31,7 @@ using std::cout;
 using std::endl;
 using std::string;
 
-int main(){
+int main178(){
     Pair<string, int> ratings[4] = {
         Pair<string, int>("The Purpled Duck", 5),
         Pair<string, int>("Jaquie's Frisco AI Fresco", 4),

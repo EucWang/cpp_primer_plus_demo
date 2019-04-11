@@ -14,8 +14,8 @@ struct rect{
 //弧度转换成角度的比值 = 180/PI
 const double Rad_to_deg = 57.29577951;
 
-polar rect_to_polar(rect xypos);
+polar rect_to_polar0(rect xypos);
 
-void show_polar(polar dapos);
+void show_polar0(polar dapos);
 
 #endif

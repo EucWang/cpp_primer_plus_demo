@@ -4,11 +4,11 @@
 #include "vector.h"
 
 using namespace std;
-using VECTOR::Vector;
-using VECTOR::Mode;
+using VECTOR93::Vector;
+using VECTOR93::Mode;
 
 
-int main()
+int main81()
 {
     srand(time(0));
     double direction;

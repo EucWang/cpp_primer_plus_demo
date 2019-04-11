@@ -3,7 +3,7 @@
 const int Cities = 5;
 const int Years = 4;
 
-int main()
+int main30()
 {
     using namespace std;
     cout.setf(ios_base::fixed, ios_base::floatfield);

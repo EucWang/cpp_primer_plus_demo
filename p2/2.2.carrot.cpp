@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main()
+int main171()
 {
     using namespace std;
 
@@ -16,5 +16,5 @@ int main()
     carrots = carrots - 1;
     cout << "Crunch, crunch. Now I have " << carrots << " carrots." << endl;
 
-    return 0;˜˜
+    return 0;
 }

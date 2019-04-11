@@ -17,7 +17,7 @@ void set_pc(free_throws& ft);
 free_throws& accumulate(free_throws& target, const free_throws& source);
 
 
-int main()
+int main231()
 {
     //cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;

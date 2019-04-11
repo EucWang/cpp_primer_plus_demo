@@ -41,7 +41,7 @@ void file_it(ostream& os, double fo, const double fe[], int n);
  * 
  */ 
 
-int main()
+int main239()
 {
     // 避免使用科学计数法显示数据
     //cout.setf(ios_base::fixed, ios_base::floatfield);

@@ -31,7 +31,7 @@ const int SIZE = 60;
  * 
  * exit(EXIT_FAILURE) 退出程序, 需要导入<cstdlib>库
  */ 
-int main()
+int main172()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

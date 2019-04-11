@@ -5,7 +5,7 @@ struct antarctica_years_end
     int year;
 };
 
-int main()
+int main262()
 {
     using namespace std;
     cout.setf(ios_base::fixed, ios_base::floatfield);

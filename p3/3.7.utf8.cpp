@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main()
+int main156()
 {
     const char* uTest = u8"你好";
     cout << uTest << endl;

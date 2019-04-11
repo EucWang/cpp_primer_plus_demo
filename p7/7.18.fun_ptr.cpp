@@ -7,7 +7,7 @@ double pam(int);
 
 void estimate(int lines, double (*pf)(int));
 
-int main()
+int main279()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

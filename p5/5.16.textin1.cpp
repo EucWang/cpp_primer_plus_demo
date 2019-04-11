@@ -14,7 +14,7 @@
  * 发送给cin的输入被缓冲了。
  * 只有在用户按下回车键后，他输入的内容才会被发送给程序。
  */ 
-int main()
+int main33()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

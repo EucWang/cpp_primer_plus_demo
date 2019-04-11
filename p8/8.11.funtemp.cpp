@@ -8,7 +8,7 @@ template <class T>
 void swap(T * a, T * b);
 // void swap(T & a, T & b);
 
-int main()
+int main100()
 {
     //cout.setf(ios_base::fixed, ios_base::floatfield);
     // cout<<endl;

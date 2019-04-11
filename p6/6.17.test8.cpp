@@ -2,7 +2,7 @@
 #include <fstream>
 #include <cstdlib>
 
-int main()
+int main82()
 {
     using namespace std;
     cout.setf(ios_base::fixed, ios_base::floatfield);

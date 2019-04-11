@@ -7,7 +7,7 @@ void countdown(int n);
 
 using namespace std;
 
-int main()
+int main83()
 {
     // cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;

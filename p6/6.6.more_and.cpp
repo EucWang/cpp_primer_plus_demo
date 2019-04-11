@@ -8,7 +8,7 @@ const char * qualify[4] =
     "pie-throwing festival.\n"
 };
 
-int main()
+int main85()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

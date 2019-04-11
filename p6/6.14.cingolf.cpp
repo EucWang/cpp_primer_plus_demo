@@ -10,7 +10,7 @@ const int MAX = 5;
  * 3. 提示用户再次输入
  */ 
 
-int main()
+int main164()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

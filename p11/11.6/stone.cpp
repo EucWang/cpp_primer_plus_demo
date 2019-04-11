@@ -5,7 +5,7 @@ using std::cout;
 
 void display(const Stonewt & st, int n);
 
-int main(){
+int main97(){
 
     Stonewt incognito = 275;
     Stonewt wolfe(285.7);

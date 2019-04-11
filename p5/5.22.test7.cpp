@@ -9,7 +9,7 @@ struct car
     int year;
 };
 
-char * get_name(){
+char * get_name22(){
     char tmp[256];
     cin.getline(tmp, 256);
     char * ret_val = new char(strlen(tmp) + 1);
@@ -18,7 +18,7 @@ char * get_name(){
 }
 
 
-int main(){
+int main31(){
 
     const char * tip1 = "How many cars do you wish to catalog?";
     const char * tip2 = "Please enter the make: ";
@@ -35,7 +35,7 @@ int main(){
     {
         cout << "Car #" << (i+1) << endl << tip2;
         // cin.getline(cars[i].manifacture, 64).get();
-        // strcpy(cars[i].manifacture, get_name());
+        // strcpy(cars[i].manifacture, get_name22());
         cin.getline(cars[i].manifacture, 64);
 
         cout << tip3;

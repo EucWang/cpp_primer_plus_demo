@@ -6,7 +6,7 @@ struct DonationItem {
     double donation;
 };
 
-int main()
+int main94()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

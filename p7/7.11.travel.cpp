@@ -12,7 +12,7 @@ travel_time sum(travel_time t1, travel_time t2);
 void show_time(travel_time t);
 
 using namespace std;
-int main()
+int main275()
 {
     
     // cout.setf(ios_base::fixed, ios_base::floatfield);

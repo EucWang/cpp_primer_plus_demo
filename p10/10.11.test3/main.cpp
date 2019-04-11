@@ -3,7 +3,7 @@
 using namespace std;
 
 
-int main()
+int main273()
 {
     Golf ann("Ann Birdfree", 24);
     ann.showgolf();

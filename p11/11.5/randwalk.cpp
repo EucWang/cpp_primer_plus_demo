@@ -6,7 +6,7 @@
 using namespace std;
 using namespace VECTOR;
 
-int main()
+int main202()
 {
     srand(time(0));  //随机种子，根据时间
     double direction;

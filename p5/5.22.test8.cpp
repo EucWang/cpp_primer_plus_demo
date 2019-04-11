@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstring>
 
-int main()
+int main48()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

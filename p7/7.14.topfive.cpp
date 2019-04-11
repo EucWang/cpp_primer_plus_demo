@@ -7,7 +7,7 @@ const int SIZE = 5;
 
 void display(const string sa[], int n);
 
-int main()
+int main274()
 {
     // cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;

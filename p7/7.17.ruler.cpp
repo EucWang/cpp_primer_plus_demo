@@ -5,7 +5,7 @@ const int Divs = 6;
 
 void subdivide(char ar[], int low, int high, int level);
 
-int main()
+int main80()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

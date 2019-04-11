@@ -10,7 +10,7 @@ void Show_array(const double * ar, const double * ar_end);
 
 void Revalue(double r, double * ar, double * ar_end);
 
-int main()
+int main280()
 {
     double properties[Max];
 

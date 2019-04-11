@@ -1,7 +1,7 @@
 #include <iostream>
 #include <array>
 
-int main()
+int main203()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

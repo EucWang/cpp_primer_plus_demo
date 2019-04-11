@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main()
+int main170()
 {
     using namespace std;
 

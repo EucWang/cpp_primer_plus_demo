@@ -19,7 +19,7 @@ void display2(const student * ps);
 
 void display3(const student pa[], int n);
 
-int main()
+int main55()
 {
     // cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;

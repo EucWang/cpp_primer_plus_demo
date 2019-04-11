@@ -5,7 +5,7 @@ using namespace std;
 
 void test();
 
-int main(){
+int main42(){
 
     test();
     // String a("wahaha");
@@ -23,9 +23,9 @@ int main(){
 }
 
 void test(){
-    String s1(" and I am a C++ Student.");
-    String s2 = "Please enter your name: ";
-    String s3;
+    String127 s1(" and I am a C++ Student.");
+    String127 s2 = "Please enter your name: ";
+    String127 s3;
 
     cout << s2;
     cin >> s3;
@@ -35,15 +35,15 @@ void test(){
     s2 = s2 + s1;
     s2.up();
     
-    cout << "The string\n" << s2 << "\ncontians " << s2.has('A')
+    cout << "The String127\n" << s2 << "\ncontians " << s2.has('A')
         << " 'A' characters in it.\n";
 
     s1 = "red";
-    String rgb[3] = {
-        String(s1), String("green"), String("blue")
+    String127 rgb[3] = {
+        String127(s1), String127("green"), String127("blue")
     };
     cout << "Enter the name of a primary color for mixing light: ";
-    String ans;
+    String127 ans;
     bool success = false;
     while(cin>>ans){
         ans.low();

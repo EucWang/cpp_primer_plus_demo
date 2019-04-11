@@ -3,7 +3,7 @@
 using std::cout;
 using std::endl;
 
-int main(){
+int main179(){
 
     ArrayTP<int, 10> sums;
     ArrayTP<double, 10> aves;

@@ -17,20 +17,20 @@ using std::istream;
  * 
  * 多重继承
  */ 
-class Student: private string, private valarray<double> {
+class Student2: private string, private valarray<double> {
     private:
         typedef valarray<double> ArrayDb;
         ostream & arr_out(ostream & os) const;
     public:
-        Student() : string("Null Student"), ArrayDb() {}
-        explicit Student(const string & s) : string(s), ArrayDb() {}
-        explicit Student(int n) : string("Nully"), ArrayDb(n) {}
+        Student2() : string("Null Student2"), ArrayDb() {}
+        explicit Student2(const string & s) : string(s), ArrayDb() {}
+        explicit Student2(int n) : string("Nully"), ArrayDb(n) {}
 
-        Student(const string & s, int n) : string(s), ArrayDb(n) {}
-        Student(const string & s, const ArrayDb & a): string(s), ArrayDb(a){}
-        Student(const string & s, const double * pd, int n) : string(s), ArrayDb(pd, n) {}
+        Student2(const string & s, int n) : string(s), ArrayDb(n) {}
+        Student2(const string & s, const ArrayDb & a): string(s), ArrayDb(a){}
+        Student2(const string & s, const double * pd, int n) : string(s), ArrayDb(pd, n) {}
 
-        ~Student(){}
+        ~Student2(){}
 
         double average() const;
         const string & name() const;
@@ -38,10 +38,10 @@ class Student: private string, private valarray<double> {
         double & operator[](int i);
         double operator[](int i) const;
 
-        friend istream & operator>>(istream & is, Student & stu);
-        friend istream & getline(istream & is, Student & stu);
+        friend istream & operator>>(istream & is, Student2 & stu);
+        friend istream & getline(istream & is, Student2 & stu);
 
-        friend ostream & operator<<(ostream & os, const Student & stu);
+        friend ostream & operator<<(ostream & os, const Student2 & stu);
 };
 
 #endif

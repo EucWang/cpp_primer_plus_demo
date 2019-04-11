@@ -21,7 +21,7 @@
  * 
  */ 
 
-class Stonewt {
+class Stonewt7 {
     private:
         static const int Lbs_per_stn = 14;
         // enum {Lbs_per_stn = 14};
@@ -30,13 +30,13 @@ class Stonewt {
         double pounds;
 
     public:
-        // explicit Stonewt(double lbs);
+        // explicit Stonewt7(double lbs);
         //只有一个参数的类构造函数默认情况下可以隐式赋值，为了防止错误
         //⚠️注意：可以使用关键字explicit来防止隐式转换，而只允许显示转换。
-        Stonewt(double lbs);
-        Stonewt(int stn, double lbs);
-        Stonewt();
-        ~Stonewt();
+        Stonewt7(double lbs);
+        Stonewt7(int stn, double lbs);
+        Stonewt7();
+        ~Stonewt7();
         void show_lbs() const;
         void show_stn() const;
 

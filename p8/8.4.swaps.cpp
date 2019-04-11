@@ -17,7 +17,7 @@ void swapp(int* p, int* q);
 void swapv(int a, int b);
 
 
-int main()
+int main244()
 {
     //cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;

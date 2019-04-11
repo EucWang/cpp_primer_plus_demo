@@ -4,7 +4,7 @@
 
 const int CLIENTS = 4;
 
-int main(){
+int main291(){
     using std::cin;
     using std::cout;
     using std::endl;

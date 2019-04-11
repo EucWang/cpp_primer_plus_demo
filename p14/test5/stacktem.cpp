@@ -7,7 +7,7 @@ using std::cin;
 using std::cout;
 using std::string;
 
-int main(){
+int main182(){
 
     Stack<string> st = Stack<string>();
     char ch;

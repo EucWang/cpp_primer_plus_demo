@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-namespace VECTOR{
+namespace VECTOR91{
     enum Mode{RECT, POL};
 
     class Vector{

@@ -2,7 +2,7 @@
 #include <string>
 #include <cctype>
 
-int main()
+int main206()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

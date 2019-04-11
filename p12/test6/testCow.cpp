@@ -1,7 +1,7 @@
 #include <iostream>
 #include "cow.h"
 
-int main(){
+int main43(){
 
     const char * hobby = "eat wet";
     const char * hobby2 = "eat very more wet";

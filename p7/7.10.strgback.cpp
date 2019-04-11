@@ -2,7 +2,7 @@
 
 char * buildstr(char c, int n);
 
-int main()
+int main65()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

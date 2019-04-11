@@ -1,7 +1,7 @@
 #include <iostream>
 #include "brass.h"
 
-int main() {
+int main127() {
     using std::cout;
     using std::endl;
 

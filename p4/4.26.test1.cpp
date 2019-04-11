@@ -4,7 +4,7 @@
 
 using namespace std;
 
-char * get_name(){
+char * get_name0(){
     char tmp[256];
     cin.getline(tmp, 256);
     char * ret_val = new char(strlen(tmp) + 1);
@@ -12,7 +12,7 @@ char * get_name(){
     return ret_val;
 }
 
-int main()
+int main13()
 {
     // cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;
@@ -23,10 +23,10 @@ int main()
     string tip4 = "What is your age? ";
 
     cout << tip1;
-    char * first_name = get_name();
+    char * first_name = get_name0();
 
     cout << tip2;
-    char * last_name = get_name();
+    char * last_name = get_name0();
 
     cout << tip3;
     char grade;

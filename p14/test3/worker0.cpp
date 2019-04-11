@@ -7,9 +7,9 @@ using std::endl;
 
 //--------------Worker-------------------------
 
-Worker::~Worker(){}
+Worker0::~Worker0(){}
 
-void Worker::set() {
+void Worker0::set() {
     cout << "Enter worker's name: ";
     getline(cin, fullname);
     cout << "Enter Worker's Id : ";
@@ -19,15 +19,15 @@ void Worker::set() {
     }
 }
 
-void Worker::show() const {
+void Worker0::show() const {
     cout << "Name : " << fullname << endl;
     cout << "Employee ID : " << id << endl;
 }
 
 //--------------Waiter-------------------------
 
-void Waiter::set() {
-    Worker::set();
+void Waiter0::set() {
+    Worker0::set();
     cout << "Enter waiter's panache rating : ";
     cin >> panache;
     while( cin.get() != '\n') {
@@ -35,19 +35,19 @@ void Waiter::set() {
     }
 }
 
-void Waiter::show() const {
+void Waiter0::show() const {
     cout << "Category : waiter\n";
-    Worker::show();
+    Worker0::show();
     cout << "Panache rating : " << panache << endl;
 }
 
 //--------------Singer-------------------------
 
-char * Singer::pv[] = {"other", "alto", "contralto", "soprano", 
+char * Singer0::pv[] = {"other", "alto", "contralto", "soprano",
                         "bass", "baritone", "tenor"};
 
-void Singer::set() {
-    Worker::set();
+void Singer0::set() {
+    Worker0::set();
     cout << "Enter number for singer's vocal range:\n";
     int i;
     for( i=0; i<Vtypes; i++) {
@@ -70,8 +70,8 @@ void Singer::set() {
     }
 }
 
-void Singer::show() const {
+void Singer0::show() const {
     cout << "Category: singer\n";
-    Worker::show();
+    Worker0::show();
     cout << "Vocal range: " << pv[voice] << endl;
 }

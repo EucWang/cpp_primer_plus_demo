@@ -1,7 +1,7 @@
 #include <iostream>
 #include "dma.h"
 
-int main() {
+int main124() {
 
     using std::cout;
     using std::endl;

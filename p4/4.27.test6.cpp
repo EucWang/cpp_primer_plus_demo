@@ -9,7 +9,7 @@ struct pizza
     double weight;   //重量
 };
 
-char * get_name(){
+char * get_name27(){
     char tmp[256];
     cin.getline(tmp, 256);
     char * ret_val = new char(strlen(tmp) + 1);
@@ -17,7 +17,7 @@ char * get_name(){
     return ret_val;
 }
 
-int main()
+int main84()
 {
   
     // cout.setf(ios_base::fixed, ios_base::floatfield);
@@ -29,7 +29,7 @@ int main()
 
     struct pizza one_pizza;
     cout << tip1;
-    char * name = get_name();
+    char * name = get_name27();
     one_pizza.company_name = name;
 
     cout <<tip2;

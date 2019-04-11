@@ -17,7 +17,7 @@ double tax(int tvarps) {
     }
 }
 
-int main()
+int main1178()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

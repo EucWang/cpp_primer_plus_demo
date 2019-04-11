@@ -3,7 +3,7 @@ using namespace std;
 
 inline double square(double x) {return x*x;}
 
-int main()
+int main230()
 {
     //cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;

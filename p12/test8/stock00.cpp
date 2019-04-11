@@ -4,7 +4,7 @@
 using namespace std;
 
 
-Stock::Stock() {
+Stock128::Stock128() {
     shares = 0;
     company = new char[1];
     company[0] ='\0';
@@ -13,13 +13,13 @@ Stock::Stock() {
     // cout << "Default constructor called" << endl;
 }
 
-Stock::~Stock(){
+Stock128::~Stock128(){
     cout << "Bye," << company << "!\n";
     delete [] company;
 }
 
-// Stock::Stock(const std::string & co, long n, double pr) {
-Stock::Stock(const char * co, long n, double pr) {
+// Stock128::Stock128(const std::string & co, long n, double pr) {
+Stock128::Stock128(const char * co, long n, double pr) {
     // company = co;
     company = new char[strlen(co) + 1];
     strcpy(company, co);
@@ -36,7 +36,7 @@ Stock::Stock(const char * co, long n, double pr) {
     // cout << "Constructor using " << co << " called" << endl;
 }
 
-Stock::Stock(const Stock & st) {
+Stock128::Stock128(const Stock128 & st) {
     company = new char[strlen(st.company) + 1];
     strcpy(company, st.company);
 
@@ -45,7 +45,7 @@ Stock::Stock(const Stock & st) {
     set_tot();
 }
 
-Stock & Stock::operator=(const Stock & st) {
+Stock128 & Stock128::operator=(const Stock128 & st) {
     if( this == &st) {
         return *this;
     }
@@ -60,8 +60,8 @@ Stock & Stock::operator=(const Stock & st) {
     return *this;
 }
 
-// void Stock::acquire(const string & co, long n, double pr) {
-void Stock::acquire(const char * co, long n, double pr) {
+// void Stock128::acquire(const string & co, long n, double pr) {
+void Stock128::acquire(const char * co, long n, double pr) {
     delete [] company;
 
     company = new char[strlen(co) + 1];
@@ -79,7 +79,7 @@ void Stock::acquire(const char * co, long n, double pr) {
     set_tot();
 }
 
-void Stock::buy(long num, double price) {
+void Stock128::buy(long num, double price) {
     if(num < 0) {
         cout << "Number of shares purchased can't be negative."
             << "Transaction is aborted.\n";
@@ -90,7 +90,7 @@ void Stock::buy(long num, double price) {
     }
 }
 
-void Stock::sell(long num, double price) {
+void Stock128::sell(long num, double price) {
     if(num < 0) {
         cout << "Number of shares sold can't be negative."
             << "Transaction is aborted.\n";
@@ -105,7 +105,7 @@ void Stock::sell(long num, double price) {
 
 }
 
-void Stock::update(double price) {
+void Stock128::update(double price) {
     share_val = price;
     set_tot();
 }
@@ -113,7 +113,7 @@ void Stock::update(double price) {
  /**
   * const放置在函数名称后面，表示函数的调用能保证调用对象不会被修改，调用对象和const一样，不被修改。
   */ 
-// void Stock::show() const {
+// void Stock128::show() const {
 //     ios_base::fmtflags orig = cout.setf(ios_base::fixed, ios_base::floatfield);
 //     streamsize prec = cout.precision(3);
 
@@ -126,7 +126,7 @@ void Stock::update(double price) {
 //     cout.precision(prec);
 // }
 
-std::ostream & operator<<(std::ostream & os, const Stock & s) {
+std::ostream & operator<<(std::ostream & os, const Stock128 & s) {
     os << "Company : " << s.company << "\t"
         << "Shares : " << s.shares << "\t"
         << "Share Price : $" << s.share_val << "\t"
@@ -136,7 +136,7 @@ std::ostream & operator<<(std::ostream & os, const Stock & s) {
 }
 
 
-const Stock & Stock::topval(const Stock & s) const {
+const Stock128 & Stock128::topval(const Stock128 & s) const {
     if(s.getTotalVal() > (*this).getTotalVal()) {
         return s;
     }else {
@@ -144,6 +144,6 @@ const Stock & Stock::topval(const Stock & s) const {
     }
 }
 
-double Stock::getTotalVal() const {
+double Stock128::getTotalVal() const {
     return (*this).total_val;
 }

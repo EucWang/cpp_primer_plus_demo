@@ -4,7 +4,7 @@
  */
 #include <iostream>
 
-int main()
+int main160()
 {
     using namespace std;
      //通常cout输出的float和double会自动不显示结尾的0，

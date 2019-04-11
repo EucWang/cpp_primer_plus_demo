@@ -31,27 +31,27 @@ class AcctABC{
 
 //=============Brass======================
 
-class Brass : public AcctABC {
+class Brass133 : public AcctABC {
     public:
-        Brass(const std::string & s="Nullbody", long an=-1, double bal=0.0)
+        Brass133(const std::string & s="Nullbody", long an=-1, double bal=0.0)
             : AcctABC(s, an, bal) {}
 
         virtual void withdraw(double amt);
         virtual void viewAcct() const;
-        virtual ~Brass(){}
+        virtual ~Brass133(){}
 };
 
 //=============BrassPlus======================
 
-class BrassPlus : public AcctABC {
+class BrassPlus133 : public AcctABC {
     private:
         double maxloan;
         double rate;
         double owesBank;
     public:
-        BrassPlus(const std::string & s="Nullbody", long an=-1, double bal=0.0,
+        BrassPlus133(const std::string & s="Nullbody", long an=-1, double bal=0.0,
                 double ml=500, double r=0.10);
-        BrassPlus(const Brass & ba, double ml=500, double r=0.1);
+        BrassPlus133(const Brass133 & ba, double ml=500, double r=0.1);
         virtual void viewAcct() const;
         virtual void withdraw(double amt);
         void resetMax(double m){maxloan = m;};

@@ -12,7 +12,7 @@ void fill(array<double, Seasons> * pa);
 
 void show(array<double, Seasons> * da);
 
-int main()
+int main286()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

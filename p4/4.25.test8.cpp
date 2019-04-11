@@ -13,7 +13,7 @@ enum Response
     Yes = 1, No = 0, Maybe = 2
 };
 
-int main()
+int main35()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

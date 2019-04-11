@@ -12,7 +12,7 @@ void test3();
  */
 void test4();
 
-int main()
+int main269()
 {
     //cout.setf(ios_base::fixed, ios_base::floatfield);
     //cout<<endl;

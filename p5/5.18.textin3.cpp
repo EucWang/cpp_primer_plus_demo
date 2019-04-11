@@ -10,7 +10,7 @@
  * 因此应将cin.eof() cin.fail()测试放在读取后
  * fail()相比于eof()，可以用于更多的实现，
  */ 
-int main()
+int main250()
 {
     using namespace std;
     cout.setf(ios_base::fixed, ios_base::floatfield);

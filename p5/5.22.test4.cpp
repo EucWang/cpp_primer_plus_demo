@@ -2,7 +2,7 @@
 
 
 
-int main()
+int main57()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

@@ -12,7 +12,7 @@ bool newcustomer(double x) {
     return (rand() * x / RAND_MAX) < 1;
 }
 
-int main(){
+int main47(){
     
     srand(time(0));  //随机数初始化
 

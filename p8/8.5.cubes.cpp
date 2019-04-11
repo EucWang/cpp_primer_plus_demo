@@ -4,7 +4,7 @@ using namespace std;
 double cube(double a);
 double refcube(double& ra);
 
-int main()
+int main235()
 {
     //cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;

@@ -19,7 +19,7 @@
  * utf8 
  * R"(Jim "King" Tutt uses "\n" instead of endl.)" 
  */
-int main()
+int main10()
 {
     using namespace std;
     cout.setf(ios_base::fixed, ios_base::floatfield);

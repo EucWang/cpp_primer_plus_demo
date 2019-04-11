@@ -1,7 +1,7 @@
 #include <iostream>
 
 
-int main()
+int main159()
 {
     using namespace std;
     float a = 2.34e+22f;

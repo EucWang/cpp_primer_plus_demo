@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main()
+int main158()
 {
     int chest = 42;
     int waist = 42;

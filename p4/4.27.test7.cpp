@@ -17,7 +17,7 @@ char * get_name(){
     return ret_val;
 }
 
-int main()
+int main1890()
 {
   
     // cout.setf(ios_base::fixed, ios_base::floatfield);

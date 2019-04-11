@@ -5,7 +5,7 @@
  * 统计一次输入 空格有多少个，字母有多少个
  * 以“.”作为输入的结尾
  */ 
-int main()
+int main78()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

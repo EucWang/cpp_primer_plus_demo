@@ -5,7 +5,7 @@ using namespace std;
 
 
 
-int main()
+int main277()
 {
     double total_payment = 0.0;
     Stack st;

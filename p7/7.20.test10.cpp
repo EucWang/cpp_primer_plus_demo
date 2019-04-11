@@ -10,7 +10,7 @@ double multiply(double x, double y);
 double calculate(double x, double y, double (* fx)(double, double));
 
 
-int main()
+int main282()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

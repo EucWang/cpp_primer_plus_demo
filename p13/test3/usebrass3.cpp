@@ -4,7 +4,7 @@
 
 const int CLIENTS = 4;
 
-int main() {
+int main125() {
     using std::cin;
     using std::cout;
     using std::endl;
@@ -29,14 +29,14 @@ int main() {
             cout << "Enter either 1 or 2:";
         }
         if(kind == '1') {
-            p_clients[i] = new Brass(temp, tempnum, tempbal);
+            p_clients[i] = new Brass133(temp, tempnum, tempbal);
         } else {
             double tmax, trate;
             cout << "Enter the overdraft limit: $";
             cin >> tmax;
             cout << "Enter the interest rate as a decimal fraction : ";
             cin >> trate;
-            p_clients[i] = new BrassPlus(temp, tempnum, tempbal, tmax, trate);
+            p_clients[i] = new BrassPlus133(temp, tempnum, tempbal, tmax, trate);
         }
 
         while(cin.get() != '\n') {

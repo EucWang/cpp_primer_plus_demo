@@ -4,9 +4,9 @@
 
 using namespace std;
 
-//================= Cd ========================
+//================= Cd6 ========================
 
-Cd::Cd() {
+Cd6::Cd6() {
     performers = new char[1];
     performers[0] = '\0';
 
@@ -17,7 +17,7 @@ Cd::Cd() {
     playtime = 0;
 }
 
-Cd::Cd(char * s1, char * s2, int n, double x){
+Cd6::Cd6(char * s1, char * s2, int n, double x){
 
     performers = new char[strlen(s1) + 1];
     strcpy(performers, s1);
@@ -30,7 +30,7 @@ Cd::Cd(char * s1, char * s2, int n, double x){
     playtime = x;
 }
 
-Cd::Cd(const Cd & d) {
+Cd6::Cd6(const Cd6 & d) {
 
     performers = new char[strlen(d.performers) + 1];
     strcpy(performers, d.performers);
@@ -43,15 +43,15 @@ Cd::Cd(const Cd & d) {
 }
 
 
-void Cd::report() const {
-    cout << "\nCd\t" 
+void Cd6::report() const {
+    cout << "\nCd6\t"
         << "\nPerformers: " << performers
         << "\nLabel: " << label 
         << "\nSelections: " << selections
         << "\nPlaytime: " << playtime;
 }
 
-Cd & Cd::operator=(const Cd & d) {
+Cd6 & Cd6::operator=(const Cd6 & d) {
     if(this != &d) {
         delete [] performers;
         delete [] label;
@@ -69,7 +69,7 @@ Cd & Cd::operator=(const Cd & d) {
     return *this;
 }
 
-Cd::~Cd(){
+Cd6::~Cd6(){
     delete [] performers;
     delete [] label;
 }
@@ -79,8 +79,8 @@ Cd::~Cd(){
 /**
  *  默认构造函数
  */ 
-Classic::Classic()
-    : Cd() {
+Classic6::Classic6()
+    : Cd6() {
     major = new char[1];
     major[0] = '\0';
 }
@@ -88,8 +88,8 @@ Classic::Classic()
 /**
  * 全参数构造函数 
  */
-Classic::Classic(char * m, char * s1, char * s2, int n, double x)
-    :Cd(s1, s2, n, x) {
+Classic6::Classic6(char * m, char * s1, char * s2, int n, double x)
+    :Cd6(s1, s2, n, x) {
 
     major = new char[strlen(m) + 1];
     strcpy(major, m);
@@ -98,8 +98,8 @@ Classic::Classic(char * m, char * s1, char * s2, int n, double x)
 /**
  * 复制构造函数
  */ 
-Classic::Classic(const Classic & c) 
-    :Cd((Cd &)c) {
+Classic6::Classic6(const Classic6 & c)
+    :Cd6((Cd6 &)c) {
 
     major = new char[strlen(c.major) + 1];
     strcpy(major, c.major);   
@@ -108,9 +108,9 @@ Classic::Classic(const Classic & c)
 /**
  * 赋值运算符
  */ 
-Classic & Classic::operator=(const Classic & c) {
+Classic6 & Classic6::operator=(const Classic6 & c) {
     if( this != &c) {
-        Cd::operator=(c); 
+        Cd6::operator=(c);
         delete [] major;
         major = new char[strlen(c.major) + 1];
         strcpy(major, c.major);   
@@ -118,8 +118,8 @@ Classic & Classic::operator=(const Classic & c) {
     return *this;
 }
 
-void Classic::report() const {
-     cout << "\nClassic======" ;
-     Cd::report();
+void Classic6::report() const {
+     cout << "\nClassic6======" ;
+     Cd6::report();
      cout << "\nMajor: " << major << endl;
 }

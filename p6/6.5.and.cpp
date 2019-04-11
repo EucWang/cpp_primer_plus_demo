@@ -2,7 +2,7 @@
 
 const int ArSize = 6;
 
-int main()
+int main73()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

@@ -7,7 +7,7 @@ struct CandyBar
     int calories;
 };
 
-int main()
+int main1()
 {
     using namespace std;
     cout.setf(ios_base::fixed, ios_base::floatfield);

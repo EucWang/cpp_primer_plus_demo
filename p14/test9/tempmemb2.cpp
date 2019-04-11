@@ -49,7 +49,7 @@ template <typename T>
     };
 
 
-int main() {
+int main110() {
     Beta<double>  guy(3.5, 3);
     cout << "T was set to double.\n";
     guy.show();

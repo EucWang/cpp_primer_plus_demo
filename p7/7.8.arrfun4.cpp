@@ -37,7 +37,7 @@ int sum_arr(const int * begin, const int * end);
  *      const double * const stick = &troble;  //stick 和 *stick都是const的了
  */ 
 
-int main()
+int main92()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

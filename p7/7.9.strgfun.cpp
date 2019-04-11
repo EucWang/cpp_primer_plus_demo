@@ -2,7 +2,7 @@
 
 unsigned int c_in_str(const char * str, char ch);
 
-int main()
+int main287()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

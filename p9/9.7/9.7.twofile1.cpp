@@ -8,7 +8,7 @@ static int harry = 300;
 
 void remote_access();
 
-int main()
+int main223()
 {
     //cout.setf(ios_base::fixed, ios_base::floatfield);
     //cout<<endl;

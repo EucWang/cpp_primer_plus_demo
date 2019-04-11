@@ -2,7 +2,7 @@
 
 unsigned long factorial(unsigned long n); 
 
-int main()
+int main278()
 {
     using namespace std;
     cout.setf(ios_base::fixed, ios_base::floatfield);

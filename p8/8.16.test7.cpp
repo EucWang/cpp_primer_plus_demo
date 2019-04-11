@@ -14,7 +14,7 @@ struct debts{
     double amount;
 };
 
-int main()
+int main232()
 {
     //cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;

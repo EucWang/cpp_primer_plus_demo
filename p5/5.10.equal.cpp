@@ -4,7 +4,7 @@
  * 比较2个数值型 使用 == 
  * 一定千万不能使用 =，
  */ 
-int main()
+int main16()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

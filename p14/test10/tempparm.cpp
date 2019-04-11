@@ -29,7 +29,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-int main() {
+int main118() {
 
     // Crab<Stack> nebula;
     Crab<Stack, int, double> nebula;

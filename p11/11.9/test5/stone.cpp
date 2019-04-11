@@ -4,11 +4,11 @@
 using std::cout;
 using std::endl;
 
-// void display(const Stonewt & st, int n);
+// void display(const Stonewt95 & st, int n);
 
-int main(){
+int main76(){
 
-    Stonewt poppins(9, 2.8);
+    Stonewt95 poppins(9, 2.8);
     double p_wt = (double)poppins;  //将对象转换成 double类型
     
     cout << "Convert to  double => ";
@@ -21,17 +21,17 @@ int main(){
     poppins.set_type(POUND_TYPE);
     cout<<poppins<<endl;
 
-    Stonewt st2(140);
+    Stonewt95 st2(140);
 
-    Stonewt st3 = poppins + st2;
+    Stonewt95 st3 = poppins + st2;
     st3.set_type(POUND_TYPE);
     cout << st3  << endl;
 
-    Stonewt st4 = poppins - st2;
+    Stonewt95 st4 = poppins - st2;
     st4.set_type(POUND_TYPE);
     cout << st4  << endl;
 
-    Stonewt st5 = poppins * st2;
+    Stonewt95 st5 = poppins * st2;
     st5.set_type(STONE_TYPE);
     cout << st5 << endl;
 

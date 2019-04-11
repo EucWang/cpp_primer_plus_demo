@@ -1,7 +1,7 @@
 #include <iostream>
 #include <climits>
 
-int main()
+int main166()
 {
     using namespace std;
 

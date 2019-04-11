@@ -1,18 +1,18 @@
 #include "stack.h"
 
-Stack::Stack(){
+Stack10::Stack10(){
     top = 0;
 }
 
-bool Stack::is_empty() const {
+bool Stack10::is_empty() const {
     return top == 0;
 }
 
-bool Stack::is_full() const {
+bool Stack10::is_full() const {
     return top == MAX;
 }
 
-bool Stack::push(/*in*/const Item & item) {
+bool Stack10::push(/*in*/const Item & item) {
     if(top < MAX) {
         items[top++] = item;
         return true;
@@ -21,7 +21,7 @@ bool Stack::push(/*in*/const Item & item) {
     }
 }
 
-bool Stack::pop(/*out*/Item & item){
+bool Stack10::pop(/*out*/Item & item){
     if(top > 0) {
         item = items[--top];
         return true;

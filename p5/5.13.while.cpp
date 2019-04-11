@@ -2,7 +2,7 @@
 #include <string>
 
 const int ArSize = 20;
-int main()
+int main20()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

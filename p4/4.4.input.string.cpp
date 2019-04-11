@@ -5,7 +5,7 @@
  * 相反，在存储字符串时，它用空字符替换换行符
  * 
  */ 
-int main() {
+int main131() {
     using namespace std;
     cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;

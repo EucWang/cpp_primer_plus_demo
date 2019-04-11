@@ -16,7 +16,7 @@
  * toupper()   返回大写字母
  */ 
 
-int main()
+int main167()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

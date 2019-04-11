@@ -10,7 +10,7 @@ const string& version2(string& s1, const string& s2);
 const string& version3(string& s1, const string& s2);
 
 
-int main()
+int main249()
 {
     //cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;

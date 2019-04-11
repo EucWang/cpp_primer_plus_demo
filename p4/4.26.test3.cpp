@@ -3,7 +3,7 @@
 #include <cstring>
 using namespace std;
 
-char * get_name(){
+char * get_name26(){
     char tmp[256];
     cin.getline(tmp, 256);
     char * ret_val = new char(strlen(tmp) + 1);
@@ -11,7 +11,7 @@ char * get_name(){
     return ret_val;
 }
 
-int main()
+int main266()
 {
     // cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;
@@ -22,11 +22,11 @@ int main()
 
     cout << tip1;
     char * first_name;
-    first_name = get_name();
+    first_name = get_name26();
 
     cout << tip2;
     char * last_name;
-    last_name = get_name();
+    last_name = get_name26();
 
     int count = strlen(first_name) + strlen(last_name) + 3;
 

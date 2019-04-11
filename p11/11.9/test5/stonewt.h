@@ -22,9 +22,9 @@
  */ 
 
 #include <iostream>
-enum STONE_TYPE{STONE_TYPE=0,POUND_TYPE=1};
+enum STONE_TYPE95{STONE_TYPE=0,POUND_TYPE=1};
 
-class Stonewt {
+class Stonewt95 {
     private:
        
         static const int Lbs_per_stn = 14;
@@ -32,27 +32,27 @@ class Stonewt {
         int stone;
         double pds_left;
         double pounds;
-        enum STONE_TYPE type;
+        enum STONE_TYPE95 type;
     public:
         
-        // explicit Stonewt(double lbs);
+        // explicit Stonewt95(double lbs);
         //只有一个参数的类构造函数默认情况下可以隐式赋值，为了防止错误
         //⚠️注意：可以使用关键字explicit来防止隐式转换，而只允许显示转换。
-        Stonewt(double lbs);
-        Stonewt(int stn, double lbs);
-        Stonewt();
-        ~Stonewt();
+        Stonewt95(double lbs);
+        Stonewt95(int stn, double lbs);
+        Stonewt95();
+        ~Stonewt95();
 
-        void set_type(enum STONE_TYPE type);
+        void set_type(enum STONE_TYPE95 type);
 
         void show_lbs() const;
         void show_stn() const;
 
-        friend std::ostream & operator<<(std::ostream & os, Stonewt & s);
+        friend std::ostream & operator<<(std::ostream & os, Stonewt95 & s);
 
-        Stonewt operator+(Stonewt & s2);
-        Stonewt operator-(Stonewt & s2);
-        Stonewt operator*(Stonewt & s2);
+        Stonewt95 operator+(Stonewt95 & s2);
+        Stonewt95 operator-(Stonewt95 & s2);
+        Stonewt95 operator*(Stonewt95 & s2);
 
         //⚠️注意：应该谨慎的使用隐式转换函数，防止出现错误
         //两个转换函数

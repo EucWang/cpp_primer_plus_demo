@@ -5,7 +5,7 @@
  * 通过for循环计算阶乘
  */ 
 const int ArSize = 100;
-int main()
+int main24()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

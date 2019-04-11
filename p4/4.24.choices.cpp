@@ -7,7 +7,7 @@
  * array对象和数组存储在相同的内存区域（栈）中， 而vector对象存储在另一个区域（自由存储区或者堆）中
  * 可以将一个array对象赋值给另一个array对象，而对于数组，必须逐个元素复制数据 
  */
-int main()
+int main267()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

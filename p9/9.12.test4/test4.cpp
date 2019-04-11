@@ -4,7 +4,7 @@
 using namespace std;
 using namespace SALES;
 
-int main()
+int main229()
 {
     Sales s1;
     Sales s2;

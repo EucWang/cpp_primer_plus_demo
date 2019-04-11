@@ -12,11 +12,11 @@ void set_chaff(chaff & c, char * dr, int slag);
 
 void show_chaff(chaff & c);
 
-char buffer[128];
+char buffer2[128];
 
-int main()
+int main236()
 {
-    chaff * c = new (buffer) chaff[2];
+    chaff * c = new (buffer2) chaff[2];
     set_chaff(*c, "WAHAHA", 1);
     set_chaff(*(c+1), "PERPESY", 2);
     for(int i=0; i<2;i++) {

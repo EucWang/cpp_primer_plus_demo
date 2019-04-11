@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main()
+int main209()
 {
     cout.setf(ios_base::fixed, ios_base::floatfield);
     cout.precision(2);

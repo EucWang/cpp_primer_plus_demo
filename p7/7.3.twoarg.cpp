@@ -4,7 +4,7 @@ using namespace std;
 
 void n_chars(char, int);
 
-int main()
+int main38()
 {
     // cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;

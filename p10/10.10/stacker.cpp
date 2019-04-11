@@ -3,10 +3,10 @@
 #include "stack.h"
 using namespace std;
 
-int main()
+int main270()
 {
 
-    Stack st;
+    Stack10 st;
     char ch;
     // unsigned long po;
     Item po;

@@ -1,7 +1,7 @@
 #ifndef CD_H_
 #define CD_H_
 
-class Cd {
+class Cd6 {
 
     private:
         char * performers;
@@ -11,27 +11,27 @@ class Cd {
         int selections;
         double playtime;
     public:
-        Cd(char * s1, char * s2, int n, double x);
-        Cd(const Cd & d);
-        Cd();
-        virtual ~Cd();
+        Cd6(char * s1, char * s2, int n, double x);
+        Cd6(const Cd6 & d);
+        Cd6();
+        virtual ~Cd6();
         virtual void report() const;
-        Cd & operator=(const Cd & d);
+        Cd6 & operator=(const Cd6 & d);
 };
 
-class Classic : public Cd {
+class Classic6 : public Cd6 {
     private:
         // char major[100];
         char * major;
     public:
-        Classic(char * major, char * s1, char * s2, int n, double x);
-        Classic(const Classic & c);
-        // Classic(char * m, const Classic & c);
-        Classic();
+        Classic6(char * major, char * s1, char * s2, int n, double x);
+        Classic6(const Classic6 & c);
+        // Classic6(char * m, const Classic6 & c);
+        Classic6();
 
-        Classic & operator=(const Classic & c);
+        Classic6 & operator=(const Classic6 & c);
 
-        virtual ~Classic() {};
+        virtual ~Classic6() {};
         virtual void report() const;
 };
 

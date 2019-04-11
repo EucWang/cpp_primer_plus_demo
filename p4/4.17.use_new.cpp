@@ -10,7 +10,7 @@
  * 4. 对于大型数据（数组，字符串，结构），应该使用new关键字
  */ 
 
-int main()
+int main18()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

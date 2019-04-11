@@ -3,32 +3,32 @@
 using namespace std;
 
 
-int main() {
+int main130() {
     
-    Time planning;
-    Time coding(2, 40);
-    Time fixing(5, 55);
-    Time total;
+    Time1 planning;
+    Time1 coding(2, 40);
+    Time1 fixing(5, 55);
+    Time1 total;
 
-    cout << "planning time = " ;
+    cout << "planning Time1 = " ;
     planning.show();
     cout << endl;
 
-    cout << "coding time = " ;
+    cout << "coding Time1 = " ;
     coding.show();
     cout << endl;
 
-    cout << "fixing time = " ;
+    cout << "fixing Time1 = " ;
     fixing.show();
     cout << endl;
 
     total = coding + fixing;
-    cout << "total time = " ;
+    cout << "total Time1 = " ;
     total.show();
     cout << endl;
 
-    Time morefixing(3, 28);
-    cout << "more fixing time = ";
+    Time1 morefixing(3, 28);
+    cout << "more fixing Time1 = ";
     morefixing.show();
     cout << endl;
 

@@ -7,26 +7,26 @@ using namespace std;
 
 const int ArSize = 80;
 
-char * left(const char * str, int n = 1);
+char * left2(const char * str, int n = 1);
 
-int main(){
+int main243(){
     //cout.setf(ios_base::fixed, ios_base::floatfield);
 
     char sample[ArSize];
     cout << "Enter a string:\n";
     cin.get(sample, ArSize);
 
-    char* ps = left(sample, 4);
+    char* ps = left2(sample, 4);
     cout << ps << endl;
     delete [] ps;
 
-    ps = left(sample);
+    ps = left2(sample);
     cout << ps << endl;
     delete [] ps;
     return 0;
 }
 
-char* left(const char* str, int n) {
+char* left2(const char* str, int n) {
     if(n<0){ n = 0; }
 
     char* p = new char[n+1];

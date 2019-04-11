@@ -27,7 +27,7 @@ const double * f3(const double *, int);
  *
  */ 
 
-int main()
+int main283()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

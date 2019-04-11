@@ -44,47 +44,47 @@ void DmaABC::view() const {
     std::cout << "===Label: " << label <<", Rating: " <<rating << std::endl;
 }
 
-//================BaseDMA===================
+//================BaseDMA7===================
  
-void BaseDMA::view() const {
-    std::cout << "BaseDMA: ==>";
+void BaseDMA7::view() const {
+    std::cout << "BaseDMA7: ==>";
     DmaABC::view();
 }
 
-//================LacksDMA===================
+//================LacksDMA7===================
 
-LacksDMA::LacksDMA(const char * c, const char * l, int r)
+LacksDMA7::LacksDMA7(const char * c, const char * l, int r)
     : DmaABC(l , r) {
         strncpy(color, c, 39);
         color[39] = '\0';
 }
 
-LacksDMA::LacksDMA(const char *c, const DmaABC & rs)
+LacksDMA7::LacksDMA7(const char *c, const DmaABC & rs)
     : DmaABC(rs) {
         strncpy(color, c, 39);
         color[39] = '\0';
 }
 
-// std::ostream & operator<<(std::ostream & os, const LacksDMA & rs) {
-//     os << (const BaseDMA &)rs;  //强制类型转换，调用父类的友元方法
+// std::ostream & operator<<(std::ostream & os, const LacksDMA7 & rs) {
+//     os << (const BaseDMA7 &)rs;  //强制类型转换，调用父类的友元方法
 //     os << "\nColor: " << rs.color;
 //     return os;
 // }
 
-void LacksDMA::view() const {
-    std::cout << "LacksDMA: ==>==>";
+void LacksDMA7::view() const {
+    std::cout << "LacksDMA7: ==>==>";
     DmaABC::view();
 }
-//================HasDMA===================
+//================HasDMA7===================
 
-HasDMA::HasDMA(const char * s, const char * l, int r)
+HasDMA7::HasDMA7(const char * s, const char * l, int r)
     :DmaABC(l, r) {
 
     style = new char[strlen(s) + 1];
     strcpy(style, s);
 }
 
-HasDMA::HasDMA(const char * s, const DmaABC & rs)
+HasDMA7::HasDMA7(const char * s, const DmaABC & rs)
     : DmaABC(rs) {
 
     style = new char[strlen(s) + 1];
@@ -92,17 +92,17 @@ HasDMA::HasDMA(const char * s, const DmaABC & rs)
 }
 
 //复制构造函数   
-HasDMA::HasDMA(const HasDMA & hs)
+HasDMA7::HasDMA7(const HasDMA7 & hs)
     :DmaABC(hs) {
     style = new char[strlen(hs.style) + 1];
     strcpy(style, hs.style);
 }
 
-HasDMA::~HasDMA() {
+HasDMA7::~HasDMA7() {
     delete [] style;
 }
  //赋值运算符
-HasDMA & HasDMA::operator=(const HasDMA & hs) {
+HasDMA7 & HasDMA7::operator=(const HasDMA7 & hs) {
     if(this != &hs) {
         DmaABC::operator=(hs);  //显示调用父类的赋值运算符
         delete [] style;
@@ -113,13 +113,13 @@ HasDMA & HasDMA::operator=(const HasDMA & hs) {
     return *this;
 }
 
-void HasDMA::view() const {
-    std::cout << "HasDMA: ==>==>==>";
+void HasDMA7::view() const {
+    std::cout << "HasDMA7: ==>==>==>";
     DmaABC::view();
 }
 
-//  std::ostream & operator<<(std::ostream & os, const HasDMA & hs) {
-//      os << (BaseDMA &)hs; //强制类型转换，调用父类的友元方法
+//  std::ostream & operator<<(std::ostream & os, const HasDMA7 & hs) {
+//      os << (BaseDMA7 &)hs; //强制类型转换，调用父类的友元方法
 //      os << "\nStyle: " << hs.style ;
 //      return os;
 //  }

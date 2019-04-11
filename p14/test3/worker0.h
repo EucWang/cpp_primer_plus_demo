@@ -5,31 +5,31 @@
 
 using std::string;
 
-class Worker {
+class Worker0 {
 private:
     string fullname;
     long id;
 public:
-    Worker() : fullname("no one"), id(0L) {}
-    Worker(const string & s, long n) : fullname(s), id(n) {}
+    Worker0() : fullname("no one"), id(0L) {}
+    Worker0(const string & s, long n) : fullname(s), id(n) {}
 
-    virtual ~Worker() = 0;
+    virtual ~Worker0() = 0;
     virtual void set();
     virtual void show() const;
 };
 
-class Waiter : public Worker {
+class Waiter0 : public Worker0 {
 private:
     int panache;
 public:
-    Waiter():Worker(), panache(0) {}
-    Waiter(const string & s, long n, int p =0): Worker(s, n), panache(p) {}
-    Waiter(const Worker & wk, int p = 0) : Worker(wk), panache(p) {}
+    Waiter0():Worker0(), panache(0) {}
+    Waiter0(const string & s, long n, int p =0): Worker0(s, n), panache(p) {}
+    Waiter0(const Worker0 & wk, int p = 0) : Worker0(wk), panache(p) {}
     void set();
     void show() const;
 };
 
-class Singer : public Worker {
+class Singer0 : public Worker0 {
 protected:
     enum {other, alto, contralto, soprano, bass, baritone, tenor};
     enum { Vtypes = 7};
@@ -37,8 +37,8 @@ private:
     static char * pv[Vtypes];
     int voice;
 public:
-    Singer() : Worker(), voice(other) {}
-    Singer(const string & s, long n, int v=other) : Worker(s, n), voice(v) {}
+    Singer0() : Worker0(), voice(other) {}
+    Singer0(const string & s, long n, int v=other) : Worker0(s, n), voice(v) {}
     void set();
     void show() const;
 };

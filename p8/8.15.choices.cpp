@@ -11,7 +11,7 @@ int lesser(int a, int b) {
     return a < b ? a : b;
 }
 
-int main()
+int main246()
 {
     //cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;

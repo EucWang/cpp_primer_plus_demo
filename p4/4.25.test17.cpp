@@ -4,7 +4,7 @@
 #include <string>
 
 
-int main()
+int main12()
 {
     // using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

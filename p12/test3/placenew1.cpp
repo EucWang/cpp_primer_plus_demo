@@ -25,7 +25,7 @@ class JustTesting {
         }
 };
 
-int main() {
+int main53() {
     char * buffer = new char[BUF];
     JustTesting * pc1, * pc2;
 

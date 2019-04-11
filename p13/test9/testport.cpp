@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main() {
+int main120() {
 
     Port p1("Qindao", "Beer", 100);
     VintagePort p2("XueHua",  200, "SnowBeer", 2019);

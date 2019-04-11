@@ -8,7 +8,7 @@ void Show_array(double * arr, int size);
 
 void Reverse_array(double * arr, int size);
 
-int main()
+int main88()
 {
     // cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;

@@ -10,7 +10,7 @@
  */ 
 long double probability(unsigned numbers, unsigned picks);
 
-int main(){
+int main41(){
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;

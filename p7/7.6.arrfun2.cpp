@@ -5,7 +5,7 @@ const int ArSize = 8;
 
 int sum_arr(int arr[], int n);
 
-int main()
+int main49()
 {
     
     // cout.setf(ios_base::fixed, ios_base::floatfield);

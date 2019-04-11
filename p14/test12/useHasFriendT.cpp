@@ -1,6 +1,6 @@
 #include "hasFriend.h"
 
-int main() {
+int main117() {
 
     counts<int>();
 

@@ -10,7 +10,7 @@ using std::cout;
 using std::endl;
 using std::strchr;
 
-int main() {
+int main113() {
 
     Worker * lolas[SIZE];
 

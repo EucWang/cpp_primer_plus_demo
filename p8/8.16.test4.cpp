@@ -14,7 +14,7 @@ void show(const stringy& b, int n=1);
 
 void show(const string& t, int n=1);
 
-int main()
+int main245()
 {
     //cout.setf(ios_base::fixed, ios_base::floatfield);
     //cout<<endl;

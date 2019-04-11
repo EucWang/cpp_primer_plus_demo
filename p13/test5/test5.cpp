@@ -5,7 +5,7 @@ using namespace std;
 
 void bravo(const Cd & disk);
 
-int main() {
+int main123() {
     Cd c1("Beatles", "Capitol", 14, 35.5);
     Classic c2 = Classic("Piano Sonata in B flat, Fantasia in C", "Alfred Brendel", "Philips", 2, 57.17);
 

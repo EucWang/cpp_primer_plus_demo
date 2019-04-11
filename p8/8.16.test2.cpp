@@ -13,7 +13,7 @@ void setCandyBar(CandyBar& bar, const char * brand, double w, int c);
 
 void showCandyBar(CandyBar& bar);
 
-int main()
+int main237()
 {
     //cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;

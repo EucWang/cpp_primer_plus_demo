@@ -4,7 +4,7 @@
 
 bool is_int(double);
 
-int main()
+int main204()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

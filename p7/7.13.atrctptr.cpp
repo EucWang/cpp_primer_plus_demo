@@ -35,7 +35,7 @@ void rect_to_polar(/*in*/const rect * xypos, /*out*/polar * pda) {
     // return result;
 }
 
-int main()
+int main62()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

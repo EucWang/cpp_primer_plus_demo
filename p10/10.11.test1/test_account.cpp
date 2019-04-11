@@ -2,7 +2,7 @@
 #include "account.h"
 using namespace std;
 
-int main()
+int main271()
 {
     Account zhangsan("zhang san", "423534564563452", 1000);
     cout << "create account and then show info : "<<endl;

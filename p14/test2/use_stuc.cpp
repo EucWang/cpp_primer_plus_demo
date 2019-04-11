@@ -6,21 +6,21 @@ using std::cin;
 using std::endl;
 
 
-void set(Student & sa, int n);
+void set2(Student2 & sa, int n);
 const int pupils = 3;
 const int quizzes = 5;
 
-int main() {
+int main115() {
 
-    Student ada[pupils] = {
-        Student(quizzes), Student(quizzes), Student(quizzes)
+    Student2 ada[pupils] = {
+        Student2(quizzes), Student2(quizzes), Student2(quizzes)
     };
 
     int i;
     for(i = 0; i<pupils; ++i) {
-        set(ada[i], quizzes);
+        set2(ada[i], quizzes);
     }
-    cout << "\nStudent List:\n";
+    cout << "\nStudent2 List:\n";
     for(i =0; i<pupils; ++i) {
         cout << ada[i].name() << endl;
     }
@@ -29,10 +29,12 @@ int main() {
         cout << endl << ada[i];
         cout << "average : " << ada[i].average() << endl;
     }
+
+    return 0;
 }
 
-void set(Student & sa, int n) {
-    cout << "Please enter the student's name:";
+void set2(Student2 & sa, int n) {
+    cout << "Please enter the Student2's name:";
     getline(cin ,sa);
     cout << "Please enter " << n << " quiz scores:\n";
     for(int i =0; i<n; i++) {

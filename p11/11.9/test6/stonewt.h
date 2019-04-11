@@ -19,9 +19,9 @@
  */ 
 
 #include <iostream>
-enum STONE_TYPE{STONE_TYPE=0,POUND_TYPE=1};
+enum STONE_TYPE96{STONE_TYPE=0,POUND_TYPE=1};
 
-class Stonewt {
+class Stonewt96 {
     private:
        
         static const int Lbs_per_stn = 14;
@@ -29,32 +29,32 @@ class Stonewt {
         int stone;
         double pds_left;
         double pounds;
-        enum STONE_TYPE type;
+        enum STONE_TYPE96 type;
     public:
         
-        // explicit Stonewt(double lbs);
+        // explicit Stonewt96(double lbs);
         //只有一个参数的类构造函数默认情况下可以隐式赋值，为了防止错误
         //⚠️注意：可以使用关键字explicit来防止隐式转换，而只允许显示转换。
-        Stonewt(double lbs);
-        Stonewt(int stn, double lbs);
-        Stonewt();
-        ~Stonewt();
+        Stonewt96(double lbs);
+        Stonewt96(int stn, double lbs);
+        Stonewt96();
+        ~Stonewt96();
 
-        void set_type(enum STONE_TYPE type);
+        void set_type(enum STONE_TYPE96 type);
         void set_pounds(double lbs);
 
         void show_lbs() const;
         void show_stn() const;
 
-        friend std::ostream & operator<<(std::ostream & os, Stonewt & s);
+        friend std::ostream & operator<<(std::ostream & os, Stonewt96 & s);
 
-        Stonewt operator+(Stonewt & s2);
-        Stonewt operator-(Stonewt & s2);
-        Stonewt operator*(Stonewt & s2);
-        Stonewt operator/(Stonewt & s2);
-        bool operator==(Stonewt & s2);
-        bool operator>(Stonewt & s2);
-        bool operator<(Stonewt & s2);
+        Stonewt96 operator+(Stonewt96 & s2);
+        Stonewt96 operator-(Stonewt96 & s2);
+        Stonewt96 operator*(Stonewt96 & s2);
+        Stonewt96 operator/(Stonewt96 & s2);
+        bool operator==(Stonewt96 & s2);
+        bool operator>(Stonewt96 & s2);
+        bool operator<(Stonewt96 & s2);
 
         //⚠️注意：应该谨慎的使用隐式转换函数，防止出现错误
         //两个转换函数

@@ -3,7 +3,7 @@ using namespace std;
 
 #include "complex0.h"
 
-int main()
+int main72()
 {
     complex a(3.0, 4.0);
     complex c;

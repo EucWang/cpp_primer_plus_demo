@@ -31,7 +31,7 @@ template <> void swap<job>(job * j1, job * j2);
 void show(job * j);
 
 
-int main()
+int main234()
 {
     cout.setf(ios_base::fixed, ios_base::floatfield);
     cout.precision(2);

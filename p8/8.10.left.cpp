@@ -10,7 +10,7 @@ const int ArSize = 80;
 char * left(const char * str, int n = 1);
 unsigned long left(unsigned long num, unsigned ct);
 
-int main(){
+int main228(){
     const char * trip = "Hawaii!!";
     unsigned long n = 12345678;
     int i;

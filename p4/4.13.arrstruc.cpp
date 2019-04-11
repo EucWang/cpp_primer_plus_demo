@@ -36,7 +36,7 @@ enum bigstep {
     first, second = 100, third
 };
 
-enum {zero, null = 0, one, numero_uno = 1};
+enum {zero, null = 0,  numero_uno = 1};
 
 /**
  * 公用体
@@ -50,7 +50,7 @@ union one4all {
     double double_val;
 };
 
-int main()
+int main77()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

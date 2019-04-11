@@ -9,7 +9,7 @@ void update(double dt);
 void local();
 
 
-int main()
+int main225()
 {
     //cout.setf(ios_base::fixed, ios_base::floatfield);
     //cout<<endl;

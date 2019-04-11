@@ -5,9 +5,9 @@
 #include "vector.h"
 
 using namespace std;
-using namespace VECTOR;
+using namespace VECTOR91;
 
-int main()
+int main90()
 {
     srand(time(0));  //随机种子，根据时间
     double direction;

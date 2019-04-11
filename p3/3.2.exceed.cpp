@@ -4,7 +4,7 @@
 
 #define ZERO 0
 
-int main()
+int main161()
 {
     using namespace std;
 

@@ -5,12 +5,12 @@ using namespace std;
  *  这里不能使用 引用，只能使用 指针
  */ 
 template <class T>
-void swap(T & a, T & b);
+void swap2(T & a, T & b);
 
-template void swap<int>(int& a, int& b);
-template void swap<double>(double& a, double& b);
+template void swap2<int>(int& a, int& b);
+template void swap2<double>(double& a, double& b);
 
-int main()
+int main241()
 {
     //cout.setf(ios_base::fixed, ios_base::floatfield);
     // cout<<endl;
@@ -19,7 +19,8 @@ int main()
     int j =30;
     cout << "i, j = " << i << ", " << j << ".\n";
     cout << "Using compiler-generated int swapper:\n";
-    swap<int &>(i,j);
+//    swap<int &>(i,j);
+    swap2<int>(i,j);
     cout << "Now i, j = "<< i << ", "<< j << ".\n";
 
     double x = 24.5;
@@ -28,7 +29,7 @@ int main()
     cout << "Using compiler-gererated double swapper:\n";
     double& xr = x;
     double& yr = y;
-    swap<double &>(xr, yr);
+    swap2<double>(xr, yr);
     cout << "Now x, y = " << x << ", " << y << ".\n";
     
     // cout<<endl;
@@ -36,7 +37,7 @@ int main()
 }
 
 template <class T>
-void swap(T & a, T & b){
+void swap2(T & a, T & b){
     T temp;
     temp = a;
     a = b;

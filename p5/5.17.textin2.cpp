@@ -14,7 +14,7 @@
  * 通常C++中传递参数的工作方式与在C语言中相同，然而cin.get(ch)不是这样
  * 
  */ 
-int main()
+int main51()
 {
     using namespace std;
     cout.setf(ios_base::fixed, ios_base::floatfield);

@@ -3,11 +3,11 @@
 
 using std::cout;
 
-void display(const Stonewt & st, int n);
+void display(const Stonewt7 & st, int n);
 
-int main(){
+int main95(){
 
-    Stonewt poppins(9, 2.8);
+    Stonewt7 poppins(9, 2.8);
     double p_wt = (double)poppins;  //将对象转换成 double类型
     
     cout << "Convert to  double => ";

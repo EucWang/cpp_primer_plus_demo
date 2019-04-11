@@ -11,7 +11,7 @@ double cal_arr_mean(double * pt, int size);
 
 const int ArSize = 10;
 
-int main()
+int main70()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

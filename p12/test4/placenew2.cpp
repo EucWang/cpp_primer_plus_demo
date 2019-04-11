@@ -17,7 +17,7 @@ class JustTesting{
     void show() const {cout << words << ", " << number << endl;}
 };
 
-int main() {
+int main50() {
     char * buffer = new char[BUF];
     JustTesting *pc1, *pc2;
 

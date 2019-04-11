@@ -9,7 +9,7 @@ struct bop{
     int preference;             // 0 fullname, 1 title, 2 bopname
 };
 
-int main()
+int main89()
 {
     using namespace std;
     // cout.setf(ios_base::fixed, ios_base::floatfield);

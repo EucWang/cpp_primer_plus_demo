@@ -4,7 +4,7 @@
  * 指针的申明，赋值，以及使用
  */ 
 
-int main()
+int main8()
 {
     using namespace std;
     cout<<endl;

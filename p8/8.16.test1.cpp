@@ -3,7 +3,7 @@ using namespace std;
 
 void print_str(const char * str, int n=1);
 
-int main()
+int main96()
 {
     //cout.setf(ios_base::fixed, ios_base::floatfield);
     cout<<endl;

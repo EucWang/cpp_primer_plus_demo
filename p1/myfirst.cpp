@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() 
+int main126()
 {
    
     cout << "Come up and C++ me some time.";

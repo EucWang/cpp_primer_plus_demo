@@ -10,7 +10,7 @@ void set(Student & sa, int n);
 const int pupils = 3;
 const int quizzes = 5;
 
-int main() {
+int main119() {
 
     Student ada[pupils] = {
         Student(quizzes), Student(quizzes), Student(quizzes)

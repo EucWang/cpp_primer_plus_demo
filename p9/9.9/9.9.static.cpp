@@ -6,7 +6,7 @@ const int ArSize = 40;
 void strcount(const char * str);
 
 
-int main()
+int main220()
 {
    
     char input[ArSize];

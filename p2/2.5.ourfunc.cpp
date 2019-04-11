@@ -3,7 +3,7 @@
 
 void simon(int);
 
-int main()
+int main176()
 {
 
     using namespace std;
