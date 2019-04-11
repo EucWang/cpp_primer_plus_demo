@@ -6,7 +6,6 @@ using std::cout;
 using std::endl;
 
 int main205(){
-
     cout << "Enter name of wine: ";
     char lab[50];
     cin.getline(lab, 50);
@@ -25,8 +24,8 @@ int main205(){
     Wine more("Gushing Grape Red", YRS, y, b);
     more.show();
 
-    cout << "Total bottles for " << more.label()
-        << " : " << more.sum() << endl;
+    cout << "Total bottles for " << more.label();
+    cout << " : " << more.sum() << endl;
 
     cout << "Bye\n";
     return 0;

@@ -8,3 +8,8 @@ p9/9.2/.DS_Store
 p9/9.5/.DS_Store
 p9/9.7/.DS_Store
 p13/.DS_Store
+
+.idea/
+
+
+cmake-build-debug/
