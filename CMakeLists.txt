@@ -425,7 +425,7 @@ add_executable(cpp_primer_plus_demo
         # p13/test9/testport.cpp
 
         p14/test1/student.cpp p14/test1/student.h p14/test1/use_stuc.cpp
-    
+
         p14/test2/student.cpp p14/test2/student.h p14/test2/use_stuc.cpp
 
         p14/test3/worker0.cpp p14/test3/worker0.h p14/test3/workertest.cpp
@@ -433,9 +433,9 @@ add_executable(cpp_primer_plus_demo
         p14/test4/workermi.cpp p14/test4/workermi.h p14/test4/workmi.cpp
 
         p14/test5/stacktem.cpp p14/test5/stacktp.h
-        
+
         p14/test6/stackoptr1.cpp p14/test6/stacktp1.cpp p14/test6/stacktp1.h
-        
+
         p14/test7/arraytp.h p14/test7/twod.cpp        p14/test8/pairs.cpp
 
         p14/test9/tempmemb.cpp        p14/test9/tempmemb2.cpp
@@ -449,5 +449,15 @@ add_executable(cpp_primer_plus_demo
 
         p14/test14/pairs.h        p14/test14/testwine.cpp        p14/test14/wine.cpp        
         p14/test14/wine.h       p14/test14/testWine.h
+
+        p14/test15/testwine.cpp        p14/test15/wine.cpp
+        p14/test15/wine.h       p14/test15/testWine.h
+
+        p14/test16/queuetp.h  p14/test16/queuetmp.h p14/test16/queuetem.cpp
+
+        p14/test17/person.h  p14/test17/person.cpp p14/test17/testPerson2.cpp p14/test17/testPerson2.h
+
+        p14/test18/emp.h p14/test18/test_emp.cpp p14/test18/emp.cpp
+        p14/test18/test_emp.h
 
         main/mainProcess.cpp)
