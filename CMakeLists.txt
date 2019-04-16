@@ -460,4 +460,6 @@ add_executable(cpp_primer_plus_demo
         p14/test18/emp.h p14/test18/test_emp.cpp p14/test18/emp.cpp
         p14/test18/test_emp.h
 
+        p15/test1/tv.h  p15/test1/tv.cpp  p15/test1/use_tv.cpp  p15/test1/use_tv.h
+
         main/mainProcess.cpp)

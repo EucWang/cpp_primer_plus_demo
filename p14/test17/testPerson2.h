@@ -1,0 +1,11 @@
+//
+// Created by 王新年 on 2019-04-12.
+//
+
+#ifndef CPP_PRIMER_PLUS_DEMO_TESTPERSON2_H
+#define CPP_PRIMER_PLUS_DEMO_TESTPERSON2_H
+
+
+int main1417();
+
+#endif //CPP_PRIMER_PLUS_DEMO_TESTPERSON2_H

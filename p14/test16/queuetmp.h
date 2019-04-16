@@ -1,0 +1,11 @@
+//
+// Created by 王新年 on 2019-04-11.
+//
+
+#ifndef CPP_PRIMER_PLUS_DEMO_QUEUETMP_H
+#define CPP_PRIMER_PLUS_DEMO_QUEUETMP_H
+
+
+int main1416();
+
+#endif //CPP_PRIMER_PLUS_DEMO_QUEUETMP_H
