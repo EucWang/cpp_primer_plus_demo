@@ -462,4 +462,12 @@ add_executable(cpp_primer_plus_demo
 
         p15/test1/tv.h  p15/test1/tv.cpp  p15/test1/use_tv.cpp  p15/test1/use_tv.h
 
+        p15/test2/tvfm.h  p15/test2/tv2.cpp  p15/test2/use_tv2.cpp  p15/test2/use_tv2.h
+
+        p15/test3/nested.cpp p15/test3/queuetp.h p15/test3/nested.h
+
+        p15/test4/error.h  p15/test4/error1.cpp
+        p15/test4/error3.cpp  p15/test4/error2.cpp   p15/test4/error4.cpp
+        p15/test4/bad_mean.h
+
         main/mainProcess.cpp)
