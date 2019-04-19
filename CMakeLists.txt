@@ -468,6 +468,10 @@ add_executable(cpp_primer_plus_demo
 
         p15/test4/error.h  p15/test4/error1.cpp
         p15/test4/error3.cpp  p15/test4/error2.cpp   p15/test4/error4.cpp
-        p15/test4/bad_mean.h
+        p15/test4/bad_mean.h p15/test4/error5.cpp p15/test4/newexcp.cpp
+
+        p15/test5/sales.h    p15/test5/sales.cpp    p15/test5/use_sales.cpp  p15/test5/use_sales.h
+
+        p15/test6/rtti1.h    p15/test6/rtti1.cpp
 
         main/mainProcess.cpp)

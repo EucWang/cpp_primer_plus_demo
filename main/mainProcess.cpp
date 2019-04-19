@@ -10,8 +10,9 @@
 // #include "p15/test1/use_tv.h"
 // #include "p15/test2/use_tv2.h"
 // #include "p15/test3/nested.h"
-#include "p15/test4/error.h"
-
+// #include "p15/test4/error.h"
+// #include "p15/test5/use_sales.h"
+#include "p15/test6/rtti1.h"
 
 int main(){
 
@@ -24,5 +25,12 @@ int main(){
     // main_error1();
     // main_error2();
     // main_error3();
-    main_error4();
+    // main_error4();
+    // main_error5();
+
+    // main_newexcp();
+    
+    // main_sales();
+
+    main_rtti1();
 }
