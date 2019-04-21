@@ -45,10 +45,10 @@ int main_sales2(){
         cout << bad.what();
         cout << "Bad Index : " << bad.getBiVal() << endl;
 
-            if(typeid(LabeledSales::NbadIndex) == typeid(bad)) {
-                LabeledSales::NbadIndex & nb = dynamic_cast< LabeledSales::NbadIndex &>(bad);
-                cout << "Company : " << nb.getLabelVal() << endl;
-            }
+        if(typeid(LabeledSales::NbadIndex) == typeid(bad)) {
+            LabeledSales::NbadIndex & nb = dynamic_cast< LabeledSales::NbadIndex &>(bad);
+            cout << "Company : " << nb.getLabelVal() << endl;
+        }
     }
 
     cout << "\n============================\n";
