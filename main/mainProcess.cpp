@@ -12,7 +12,12 @@
 // #include "p15/test3/nested.h"
 // #include "p15/test4/error.h"
 // #include "p15/test5/use_sales.h"
-#include "p15/test6/rtti1.h"
+// #include "p15/test6/rtti1.h"
+// #include "p15/test7/constcast.h"
+// #include "p15/test8/use_tv3.h"
+// #include "p15/test9/error6.h"
+// #include "p15/test10/error7.h"
+#include "p15/test11/use_sales2.h"
 
 int main(){
 
@@ -32,5 +37,12 @@ int main(){
     
     // main_sales();
 
-    main_rtti1();
+    // main_rtti1();
+    // main_rtti2();
+    //  main_constcast();
+    // main_tv3();
+
+    // main_error6();
+    // main_error7();
+    main_sales2();
 }

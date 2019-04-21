@@ -472,6 +472,16 @@ add_executable(cpp_primer_plus_demo
 
         p15/test5/sales.h    p15/test5/sales.cpp    p15/test5/use_sales.cpp  p15/test5/use_sales.h
 
-        p15/test6/rtti1.h    p15/test6/rtti1.cpp
+        p15/test6/rtti1.h    p15/test6/rtti1.cpp  p15/test6/rtti2.cpp
+
+        p15/test7/constcast.h p15/test7/constcast.cpp
+
+        p15/test8/tv3.cpp p15/test8/tv3.h p15/test8/use_tv3.cpp  p15/test8/use_tv3.h
+
+        p15/test9/bad_mean2.h p15/test9/error6.h p15/test9/error6.cpp
+
+        p15/test10/bad_mean3.h p15/test10/error7.h p15/test10/error7.cpp
+
+        p15/test11/use_sales2.cpp p15/test11/use_sales2.h
 
         main/mainProcess.cpp)
