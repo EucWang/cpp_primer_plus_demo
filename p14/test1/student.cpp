@@ -64,7 +64,7 @@ std::istream & operator>>(std::istream & is, Student & stu) {
     return is;
 }
 
-std::istream & getline(std::istream & is, Student & stu) {
+std::istream & getline3(std::istream & is, Student & stu) {
     getline(is, stu.name);
     return is;
 }

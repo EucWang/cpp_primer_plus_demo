@@ -60,7 +60,7 @@ istream & operator>>(istream & is, Student2 & stu) {
 /**
  * friend method
  */ 
-istream & getline(istream & is, Student2 & stu) {
+istream & getline2(istream & is, Student2 & stu) {
     getline(is, (string &)stu);
     return is;
 }

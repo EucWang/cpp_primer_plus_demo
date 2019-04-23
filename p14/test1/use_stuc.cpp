@@ -33,7 +33,7 @@ int main119() {
 
 void set(Student & sa, int n) {
     cout << "Please enter the student's name:";
-    getline(cin ,sa);
+    getline3(cin ,sa);
     cout << "Please enter " << n << " quiz scores:\n";
     for(int i =0; i<n; i++) {
         cin >> sa[i];

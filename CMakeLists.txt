@@ -424,64 +424,69 @@ add_executable(cpp_primer_plus_demo
         # p13/test9/port.h
         # p13/test9/testport.cpp
 
-        p14/test1/student.cpp p14/test1/student.h p14/test1/use_stuc.cpp
+        # p14/test1/student.cpp p14/test1/student.h p14/test1/use_stuc.cpp
 
-        p14/test2/student.cpp p14/test2/student.h p14/test2/use_stuc.cpp
+        # p14/test2/student.cpp p14/test2/student.h p14/test2/use_stuc.cpp
 
-        p14/test3/worker0.cpp p14/test3/worker0.h p14/test3/workertest.cpp
+        # p14/test3/worker0.cpp p14/test3/worker0.h p14/test3/workertest.cpp
 
-        p14/test4/workermi.cpp p14/test4/workermi.h p14/test4/workmi.cpp
+        # p14/test4/workermi.cpp p14/test4/workermi.h p14/test4/workmi.cpp
 
-        p14/test5/stacktem.cpp p14/test5/stacktp.h
+        # p14/test5/stacktem.cpp p14/test5/stacktp.h
 
-        p14/test6/stackoptr1.cpp p14/test6/stacktp1.cpp p14/test6/stacktp1.h
+        # p14/test6/stackoptr1.cpp p14/test6/stacktp1.cpp p14/test6/stacktp1.h
 
-        p14/test7/arraytp.h p14/test7/twod.cpp        p14/test8/pairs.cpp
+        # p14/test7/arraytp.h p14/test7/twod.cpp        p14/test8/pairs.cpp
 
-        p14/test9/tempmemb.cpp        p14/test9/tempmemb2.cpp
+        # p14/test9/tempmemb.cpp        p14/test9/tempmemb2.cpp
 
-        p14/test10/tempparm.cpp
+        # p14/test10/tempparm.cpp
 
-        p14/test11/frnd2tmp.cpp p14/test11/hasFriend.h
+        # p14/test11/frnd2tmp.cpp p14/test11/hasFriend.h
 
-        p14/test12/hasFriend.h        p14/test12/useHasFriendT.cpp
-        p14/test13/manyfriend.cpp
+        # p14/test12/hasFriend.h        p14/test12/useHasFriendT.cpp
+        # p14/test13/manyfriend.cpp
 
-        p14/test14/pairs.h        p14/test14/testwine.cpp        p14/test14/wine.cpp        
-        p14/test14/wine.h       p14/test14/testWine.h
+        # p14/test14/pairs.h        p14/test14/testwine.cpp        p14/test14/wine.cpp        
+        # p14/test14/wine.h       p14/test14/testWine.h
 
-        p14/test15/testwine.cpp        p14/test15/wine.cpp
-        p14/test15/wine.h       p14/test15/testWine.h
+        # p14/test15/testwine.cpp        p14/test15/wine.cpp
+        # p14/test15/wine.h       p14/test15/testWine.h
 
-        p14/test16/queuetp.h  p14/test16/queuetmp.h p14/test16/queuetem.cpp
+        # p14/test16/queuetp.h  p14/test16/queuetmp.h p14/test16/queuetem.cpp
 
-        p14/test17/person.h  p14/test17/person.cpp p14/test17/testPerson2.cpp p14/test17/testPerson2.h
+        # p14/test17/person.h  p14/test17/person.cpp p14/test17/testPerson2.cpp p14/test17/testPerson2.h
 
-        p14/test18/emp.h p14/test18/test_emp.cpp p14/test18/emp.cpp
-        p14/test18/test_emp.h
+        # p14/test18/emp.h p14/test18/test_emp.cpp p14/test18/emp.cpp
+        # p14/test18/test_emp.h
 
-        p15/test1/tv.h  p15/test1/tv.cpp  p15/test1/use_tv.cpp  p15/test1/use_tv.h
+        # p15/test1/tv.h  p15/test1/tv.cpp  p15/test1/use_tv.cpp  p15/test1/use_tv.h
 
-        p15/test2/tvfm.h  p15/test2/tv2.cpp  p15/test2/use_tv2.cpp  p15/test2/use_tv2.h
+        # p15/test2/tvfm.h  p15/test2/tv2.cpp  p15/test2/use_tv2.cpp  p15/test2/use_tv2.h
 
-        p15/test3/nested.cpp p15/test3/queuetp.h p15/test3/nested.h
+        # p15/test3/nested.cpp p15/test3/queuetp.h p15/test3/nested.h
 
-        p15/test4/error.h  p15/test4/error1.cpp
-        p15/test4/error3.cpp  p15/test4/error2.cpp   p15/test4/error4.cpp
-        p15/test4/bad_mean.h p15/test4/error5.cpp p15/test4/newexcp.cpp
+        # p15/test4/error.h  p15/test4/error1.cpp
+        # p15/test4/error3.cpp  p15/test4/error2.cpp   p15/test4/error4.cpp
+        # p15/test4/bad_mean.h p15/test4/error5.cpp p15/test4/newexcp.cpp
 
-        p15/test5/sales.h    p15/test5/sales.cpp    p15/test5/use_sales.cpp  p15/test5/use_sales.h
+        # p15/test5/sales.h    p15/test5/sales.cpp    p15/test5/use_sales.cpp  p15/test5/use_sales.h
 
-        p15/test6/rtti1.h    p15/test6/rtti1.cpp  p15/test6/rtti2.cpp
+        # p15/test6/rtti1.h    p15/test6/rtti1.cpp  p15/test6/rtti2.cpp
 
-        p15/test7/constcast.h p15/test7/constcast.cpp
+        # p15/test7/constcast.h p15/test7/constcast.cpp
 
-        p15/test8/tv3.cpp p15/test8/tv3.h p15/test8/use_tv3.cpp  p15/test8/use_tv3.h
+        # p15/test8/tv3.cpp p15/test8/tv3.h p15/test8/use_tv3.cpp  p15/test8/use_tv3.h
 
-        p15/test9/bad_mean2.h p15/test9/error6.h p15/test9/error6.cpp
+        # p15/test9/bad_mean2.h p15/test9/error6.h p15/test9/error6.cpp
 
-        p15/test10/bad_mean3.h p15/test10/error7.h p15/test10/error7.cpp
+        # p15/test10/bad_mean3.h p15/test10/error7.h p15/test10/error7.cpp
 
-        p15/test11/use_sales2.cpp p15/test11/use_sales2.h
+        # p15/test11/use_sales2.cpp p15/test11/use_sales2.h
+
+        p16/test1/str1.h p16/test1/str1.cpp  p16/test1/str2.cpp p16/test1/hangman.cpp
+        p16/test1/str3.cpp
+
+        p16/test2/smrtptrs.cpp   p16/test2/smrtptrs.h p16/test2/fowl.cpp
 
         main/mainProcess.cpp)

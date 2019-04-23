@@ -35,7 +35,7 @@ int main115() {
 
 void set2(Student2 & sa, int n) {
     cout << "Please enter the Student2's name:";
-    getline(cin ,sa);
+    getline2(cin ,sa);
     cout << "Please enter " << n << " quiz scores:\n";
     for(int i =0; i<n; i++) {
         cin >> sa[i];

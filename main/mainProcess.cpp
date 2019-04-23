@@ -17,7 +17,9 @@
 // #include "p15/test8/use_tv3.h"
 // #include "p15/test9/error6.h"
 // #include "p15/test10/error7.h"
-#include "p15/test11/use_sales2.h"
+// #include "p15/test11/use_sales2.h"
+// #include "../p16/test1/str1.h"
+#include "../p16/test2/smrtptrs.h"
 
 int main(){
 
@@ -44,5 +46,13 @@ int main(){
 
     // main_error6();
     // main_error7();
-    main_sales2();
+    // main_sales2();
+    
+    // main_str1();
+    // main_str2();
+
+    // main_hangerman();
+    // main_str3();
+    // main_smrt_ptrs();
+    main_fowl();
 }

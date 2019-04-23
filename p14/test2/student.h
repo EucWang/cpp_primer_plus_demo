@@ -39,7 +39,7 @@ class Student2: private string, private valarray<double> {
         double operator[](int i) const;
 
         friend istream & operator>>(istream & is, Student2 & stu);
-        friend istream & getline(istream & is, Student2 & stu);
+        friend istream & getline2(istream & is, Student2 & stu);
 
         friend ostream & operator<<(ostream & os, const Student2 & stu);
 };
