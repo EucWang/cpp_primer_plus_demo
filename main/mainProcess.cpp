@@ -19,7 +19,9 @@
 // #include "p15/test10/error7.h"
 // #include "p15/test11/use_sales2.h"
 // #include "../p16/test1/str1.h"
-#include "../p16/test2/smrtptrs.h"
+// #include "../p16/test2/smrtptrs.h"
+// #include  "../p16/test3/vect.h"
+#include "../p16/test4/test_iterator.h"
 
 int main(){
 
@@ -54,5 +56,13 @@ int main(){
     // main_hangerman();
     // main_str3();
     // main_smrt_ptrs();
-    main_fowl();
+    // main_fowl();
+    // main_vect1();
+    // main_vect2();
+    // main_vect3();
+    // main_copyit();
+    // main_inserts();
+    // main_list();
+    // main_setops();
+    main_multimap();
 }

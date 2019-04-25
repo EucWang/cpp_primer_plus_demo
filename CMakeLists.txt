@@ -489,4 +489,10 @@ add_executable(cpp_primer_plus_demo
 
         p16/test2/smrtptrs.cpp   p16/test2/smrtptrs.h p16/test2/fowl.cpp
 
+        p16/test3/vect.h  p16/test3/vect1.cpp p16/test3/vect2.cpp  p16/test3/vect3.cpp
+        p16/test3/review.cpp  
+        
+        p16/test4/test_iterator.h p16/test4/copyit.cpp  p16/test4/inserts.cpp p16/test4/list.cpp
+        p16/test4/setops.cpp p16/test4/multimap.cpp
+
         main/mainProcess.cpp)
