@@ -495,4 +495,12 @@ add_executable(cpp_primer_plus_demo
         p16/test4/test_iterator.h p16/test4/copyit.cpp  p16/test4/inserts.cpp p16/test4/list.cpp
         p16/test4/setops.cpp p16/test4/multimap.cpp
 
+        p16/test5/functor.h p16/test5/functor.cpp p16/test5/funadap.cpp
+
+        p16/test6/strgst.h p16/test6/strgst1.cpp p16/test6/listrmv.cpp
+        p16/test6/usealgo.cpp
+
+        p16/test7/otherlib.h p16/test7/valvect.cpp p16/test7/vslice.cpp
+        p16/test7/ilist.cpp
+
         main/mainProcess.cpp)

@@ -21,7 +21,10 @@
 // #include "../p16/test1/str1.h"
 // #include "../p16/test2/smrtptrs.h"
 // #include  "../p16/test3/vect.h"
-#include "../p16/test4/test_iterator.h"
+// #include "../p16/test4/test_iterator.h"
+// #include "../p16/test5/functor.h"
+// #include "../p16/test6/strgst.h"
+#include "../p16/test7/otherlib.h"
 
 int main(){
 
@@ -64,5 +67,13 @@ int main(){
     // main_inserts();
     // main_list();
     // main_setops();
-    main_multimap();
+    // main_multimap();
+    // main_functor();
+    // main_funadap();
+    // main_strgst1();
+    // main_listrmv();
+    // main_usealgo();
+    // mian_valvect();
+    // main_vslice();
+    main_ilist();
 }
