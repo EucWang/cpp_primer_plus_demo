@@ -503,4 +503,6 @@ add_executable(cpp_primer_plus_demo
         p16/test7/otherlib.h p16/test7/valvect.cpp p16/test7/vslice.cpp
         p16/test7/ilist.cpp
 
-        main/mainProcess.cpp)
+        p16/test8/test16.h p16/test8/test1in16.cpp
+
+        main/mainProcess.cpp p16/test8/test3in16.cpp)

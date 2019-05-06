@@ -8,7 +8,7 @@
 
 using namespace std;
 
-int main_str3(){
+int main_str3() {
 
     string empty;
     string small = "bit";

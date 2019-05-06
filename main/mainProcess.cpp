@@ -24,7 +24,8 @@
 // #include "../p16/test4/test_iterator.h"
 // #include "../p16/test5/functor.h"
 // #include "../p16/test6/strgst.h"
-#include "../p16/test7/otherlib.h"
+// #include "../p16/test7/otherlib.h"
+#include "../p16/test8/test16.h"
 
 int main(){
 
@@ -75,5 +76,7 @@ int main(){
     // main_usealgo();
     // mian_valvect();
     // main_vslice();
-    main_ilist();
+    // main_ilist();
+//    main_test1in16();
+    test3in16();
 }
