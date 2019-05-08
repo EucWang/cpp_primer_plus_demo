@@ -15,7 +15,7 @@ bool isPhraseStr(string & str){
     string::reverse_iterator b = str.rbegin();
 
     bool retVal = true;
-    for(; a != str.end(), b != str.rend(); a++, b++) {
+    for(; (a != str.end()) || (b != str.rend()); a++, b++) {
         if(*a != *b) {
             retVal = false;
             break;

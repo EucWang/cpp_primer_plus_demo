@@ -16,7 +16,7 @@ int test3in16(){
     ifstream fin;
     fin.open("../p16/test1/tobuy.txt");
     if(!fin.is_open()) {
-        cerr << "open file fail,exit";
+        cerr << "open file fail,exit\n";
         return -1;
     }
 

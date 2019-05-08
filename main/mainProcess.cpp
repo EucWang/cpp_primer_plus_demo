@@ -78,5 +78,8 @@ int main(){
     // main_vslice();
     // main_ilist();
 //    main_test1in16();
-    test3in16();
+    // test3in16();
+    // test4in16();
+    // test5in16();
+    test6in16();
 }
