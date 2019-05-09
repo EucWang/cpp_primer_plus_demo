@@ -81,5 +81,8 @@ int main(){
     // test3in16();
     // test4in16();
     // test5in16();
-    test6in16();
+    // test6in16();
+    // test7in16();
+    // test8in16();
+    test9in16();
 }
