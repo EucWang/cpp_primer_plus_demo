@@ -3,6 +3,17 @@
 
 #include <vector>
 #include <iostream>
+#include <memory>
+
+struct Review2{
+    std::string title;
+    int rating;
+    double price;
+};
+
+bool fillReview2(/*out*/Review2 & rr);
+// void showReview2(const Review2 & rr);
+void showReview2(const  std::shared_ptr<Review2>  rr);
 
 template<class T>
 void showVector(const char * tips, std::vector<T> & v) {
@@ -19,4 +30,5 @@ int test6in16();
 int test7in16();
 int test8in16();
 int test9in16();
+int test10in16();
 #endif
