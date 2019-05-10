@@ -25,7 +25,8 @@
 // #include "../p16/test5/functor.h"
 // #include "../p16/test6/strgst.h"
 // #include "../p16/test7/otherlib.h"
-#include "../p16/test8/test16.h"
+// #include "../p16/test8/test16.h"
+#include "../p17/test1/test1.h"
 
 int main(){
 
@@ -85,5 +86,13 @@ int main(){
     // test7in16();
     // test8in16();
     // test9in16();
-    test10in16();
+    // test10in16();
+    // main_write();
+    // main_defaults();
+    // main_manip();
+    // main_width();
+    // main_fill();
+    // main_precise();
+    //  main_showpt();
+    main_setf();
 }

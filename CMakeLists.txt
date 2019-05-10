@@ -484,29 +484,33 @@ add_executable(cpp_primer_plus_demo
 
         # p15/test11/use_sales2.cpp p15/test11/use_sales2.h
 
-        p16/test1/str1.h p16/test1/str1.cpp  p16/test1/str2.cpp p16/test1/hangman.cpp
-        p16/test1/str3.cpp
+        # p16/test1/str1.h p16/test1/str1.cpp  p16/test1/str2.cpp p16/test1/hangman.cpp
+        # p16/test1/str3.cpp
 
-        p16/test2/smrtptrs.cpp   p16/test2/smrtptrs.h p16/test2/fowl.cpp
+        # p16/test2/smrtptrs.cpp   p16/test2/smrtptrs.h p16/test2/fowl.cpp
 
-        p16/test3/vect.h  p16/test3/vect1.cpp p16/test3/vect2.cpp  p16/test3/vect3.cpp
-        p16/test3/review.cpp  
+        # p16/test3/vect.h  p16/test3/vect1.cpp p16/test3/vect2.cpp  p16/test3/vect3.cpp
+        # p16/test3/review.cpp  
         
-        p16/test4/test_iterator.h p16/test4/copyit.cpp  p16/test4/inserts.cpp p16/test4/list.cpp
-        p16/test4/setops.cpp p16/test4/multimap.cpp
+        # p16/test4/test_iterator.h p16/test4/copyit.cpp  p16/test4/inserts.cpp p16/test4/list.cpp
+        # p16/test4/setops.cpp p16/test4/multimap.cpp
 
-        p16/test5/functor.h p16/test5/functor.cpp p16/test5/funadap.cpp
+        # p16/test5/functor.h p16/test5/functor.cpp p16/test5/funadap.cpp
 
-        p16/test6/strgst.h p16/test6/strgst1.cpp p16/test6/listrmv.cpp
-        p16/test6/usealgo.cpp
+        # p16/test6/strgst.h p16/test6/strgst1.cpp p16/test6/listrmv.cpp
+        # p16/test6/usealgo.cpp
 
-        p16/test7/otherlib.h p16/test7/valvect.cpp p16/test7/vslice.cpp
-        p16/test7/ilist.cpp
+        # p16/test7/otherlib.h p16/test7/valvect.cpp p16/test7/vslice.cpp
+        # p16/test7/ilist.cpp
 
-        p16/test8/test16.h p16/test8/test1in16.cpp p16/test8/test4in16.cpp
-        p16/test8/test5in16.cpp p16/test8/test6in16.cpp
-        p16/test8/customer2.h p16/test8/customer2.cpp p16/test8/test7in16.cpp
-        p16/test8/test8in16.cpp p16/test8/test9in16.cpp
-        p16/test8/test10in16.cpp p16/test8/review2.cpp
+        # p16/test8/test16.h p16/test8/test1in16.cpp p16/test8/test4in16.cpp
+        # p16/test8/test5in16.cpp p16/test8/test6in16.cpp
+        # p16/test8/customer2.h p16/test8/customer2.cpp p16/test8/test7in16.cpp
+        # p16/test8/test8in16.cpp p16/test8/test9in16.cpp
+        # p16/test8/test10in16.cpp p16/test8/review2.cpp p16/test8/test3in16.cpp
 
-        main/mainProcess.cpp p16/test8/test3in16.cpp)
+        p17/test1/write.cpp p17/test1/test1.h p17/test1/defaults.cpp p17/test1/manip.cpp
+        p17/test1/width.cpp p17/test1/fill.cpp p17/test1/precise.cpp p17/test1/showpt.cpp
+        p17/test1/setf.cpp
+
+        main/mainProcess.cpp )
