@@ -13,7 +13,7 @@
  *  ios_base::boolalpha   输入输出bool值时可以为true，false
  * ios_base::showbase    对于输出，使用C++基数前缀（0， 0x）
  * ios_base::uppercase    对于16进制输出， 使用大写字母表示法
- * ios_base::showpos     再正数前面使用+
+ * ios_base::showpos     在正数前面使用+， 只有十进制才会有+
  */ 
 int main_showpt(){
 

@@ -26,7 +26,8 @@
 // #include "../p16/test6/strgst.h"
 // #include "../p16/test7/otherlib.h"
 // #include "../p16/test8/test16.h"
-#include "../p17/test1/test1.h"
+// #include "../p17/test1/test1.h"
+#include "../p17/test2/test2.h"
 
 int main(){
 
@@ -94,5 +95,8 @@ int main(){
     // main_fill();
     // main_precise();
     //  main_showpt();
-    main_setf();
+    // main_setf();
+    // main_setf2();
+    // main_iomanip();
+    main_check_it();
 }

@@ -10,4 +10,6 @@ int main_write();
   int main_precise();
   int main_showpt();
   int main_setf();
+  int main_setf2();
+  int main_iomanip();
 #endif

@@ -511,6 +511,8 @@ add_executable(cpp_primer_plus_demo
 
         p17/test1/write.cpp p17/test1/test1.h p17/test1/defaults.cpp p17/test1/manip.cpp
         p17/test1/width.cpp p17/test1/fill.cpp p17/test1/precise.cpp p17/test1/showpt.cpp
-        p17/test1/setf.cpp
+        p17/test1/setf.cpp    p17/test1/setf2.cpp p17/test1/iomanip.cpp
+
+        p17/test2/check_it.cpp
 
         main/mainProcess.cpp )
