@@ -516,6 +516,10 @@ add_executable(cpp_primer_plus_demo
         p17/test2/check_it.cpp p17/test2/cinexcp.cpp p17/test2/get_gun.cpp
         p17/test2/peeker.cpp p17/test2/truncate.cpp
 
-        p17/test3/test3.h p17/test3/fileio.cpp
+        p17/test3/test3.h p17/test3/fileio.cpp p17/test3/count.cpp
+        p17/test3/append.cpp p17/test3/binary.cpp p17/test3/random.cpp
+        p17/test3/tmpname.cpp
+
+        p17/test4/test4.h p17/test4/strout.cpp p17/test4/strin.cpp
 
         main/mainProcess.cpp )

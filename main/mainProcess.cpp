@@ -28,9 +28,10 @@
 // #include "../p16/test8/test16.h"
 // #include "../p17/test1/test1.h"
 // #include "../p17/test2/test2.h"
-#include "../p17/test3/test3.h"
+// #include "../p17/test3/test3.h"
+#include "../p17/test4/test4.h"
 
-int main(){
+int main(int argc, char * argv[]){
 
 //    main1415();
 //    main1416();
@@ -104,5 +105,12 @@ int main(){
     // main_get_gun();
     //  main_peeker();
     //  main_truncate();
-    main_fileio();
+    // main_fileio();
+    // main_count(argc, argv);
+    // main_append();
+    // main_binary();
+    // main_random();
+    // main_tmpname();
+    // main_strout();
+    main_strin2();
 }
