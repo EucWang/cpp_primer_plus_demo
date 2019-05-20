@@ -29,7 +29,8 @@
 // #include "../p17/test1/test1.h"
 // #include "../p17/test2/test2.h"
 // #include "../p17/test3/test3.h"
-#include "../p17/test4/test4.h"
+// #include "../p17/test4/test4.h"
+#include "../p17/test5/test.h"
 
 int main(int argc, char * argv[]){
 
@@ -112,5 +113,12 @@ int main(int argc, char * argv[]){
     // main_random();
     // main_tmpname();
     // main_strout();
-    main_strin2();
+    // main_strin2();
+    // main_p17test1();
+    // main_p17test2();
+    // main_p17test3();
+    // main_p17test4();
+    // main_p17test5();
+//    main_p17test6();
+    main_p17test7();
 }

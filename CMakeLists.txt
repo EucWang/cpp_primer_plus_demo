@@ -87,6 +87,11 @@ include_directories(p9/9.2)
 include_directories(p9/9.5)
 include_directories(p9/9.7)
 include_directories(p9/9.9)
+include_directories(p17/test1)
+include_directories(p17/test2)
+include_directories(p17/test3)
+include_directories(p17/test4)
+include_directories(p17/test5)
 
 add_executable(cpp_primer_plus_demo
         # p1/myfirst.cpp
@@ -457,8 +462,8 @@ add_executable(cpp_primer_plus_demo
 
         # p14/test17/person.h  p14/test17/person.cpp p14/test17/testPerson2.cpp p14/test17/testPerson2.h
 
-        # p14/test18/emp.h p14/test18/test_emp.cpp p14/test18/emp.cpp
-        # p14/test18/test_emp.h
+#        p14/test18/emp.h p14/test18/test_emp.cpp p14/test18/emp.cpp
+#        p14/test18/test_emp.h
 
         # p15/test1/tv.h  p15/test1/tv.cpp  p15/test1/use_tv.cpp  p15/test1/use_tv.h
 
@@ -521,5 +526,9 @@ add_executable(cpp_primer_plus_demo
         p17/test3/tmpname.cpp
 
         p17/test4/test4.h p17/test4/strout.cpp p17/test4/strin.cpp
+
+        p17/test5/test.h p17/test5/test1.cpp p17/test5/test2.cpp p17/test5/test3.cpp
+        p17/test5/test4.cpp p17/test5/test5.cpp p17/test5/test6.cpp
+        p17/test5/emp2.h p17/test5/emp2.cpp p17/test5/test7.cpp
 
         main/mainProcess.cpp )
