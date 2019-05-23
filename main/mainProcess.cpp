@@ -30,7 +30,11 @@
 // #include "../p17/test2/test2.h"
 // #include "../p17/test3/test3.h"
 // #include "../p17/test4/test4.h"
-#include "../p17/test5/test.h"
+//#include "../p17/test5/test.h"
+//#include "../p18/test1/test1.h"
+//#include "../p18/test2/test2.h"
+//#include "../p18/test4/lambda0.h"
+#include "../p18/test5/test5.h"
 
 int main(int argc, char * argv[]){
 
@@ -120,5 +124,12 @@ int main(int argc, char * argv[]){
     // main_p17test4();
     // main_p17test5();
 //    main_p17test6();
-    main_p17test7();
+//    main_p17test7();
+//    main_rvref();
+//    main_useless();
+//    main_stdmove();
+//    mian_lanbda0();
+//    mian_lanbda1();
+//     main_callable();
+     main_wrapped();
 }

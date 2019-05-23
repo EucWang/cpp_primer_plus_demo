@@ -92,6 +92,9 @@ include_directories(p17/test2)
 include_directories(p17/test3)
 include_directories(p17/test4)
 include_directories(p17/test5)
+include_directories(p18/test1)
+include_directories(p18/test2)
+include_directories(p18/test4)
 
 add_executable(cpp_primer_plus_demo
         # p1/myfirst.cpp
@@ -514,21 +517,27 @@ add_executable(cpp_primer_plus_demo
         # p16/test8/test8in16.cpp p16/test8/test9in16.cpp
         # p16/test8/test10in16.cpp p16/test8/review2.cpp p16/test8/test3in16.cpp
 
-        p17/test1/write.cpp p17/test1/test1.h p17/test1/defaults.cpp p17/test1/manip.cpp
-        p17/test1/width.cpp p17/test1/fill.cpp p17/test1/precise.cpp p17/test1/showpt.cpp
-        p17/test1/setf.cpp    p17/test1/setf2.cpp p17/test1/iomanip.cpp
+#        p17/test1/write.cpp p17/test1/test1.h p17/test1/defaults.cpp p17/test1/manip.cpp
+#        p17/test1/width.cpp p17/test1/fill.cpp p17/test1/precise.cpp p17/test1/showpt.cpp
+#        p17/test1/setf.cpp    p17/test1/setf2.cpp p17/test1/iomanip.cpp
+#
+#        p17/test2/check_it.cpp p17/test2/cinexcp.cpp p17/test2/get_gun.cpp
+#        p17/test2/peeker.cpp p17/test2/truncate.cpp
+#
+#        p17/test3/test3.h p17/test3/fileio.cpp p17/test3/count.cpp
+#        p17/test3/append.cpp p17/test3/binary.cpp p17/test3/random.cpp
+#        p17/test3/tmpname.cpp
+#
+#        p17/test4/test4.h p17/test4/strout.cpp p17/test4/strin.cpp
+#
+#        p17/test5/test.h p17/test5/test1.cpp p17/test5/test2.cpp p17/test5/test3.cpp
+#        p17/test5/test4.cpp p17/test5/test5.cpp p17/test5/test6.cpp
+#        p17/test5/emp2.h p17/test5/emp2.cpp p17/test5/test7.cpp
 
-        p17/test2/check_it.cpp p17/test2/cinexcp.cpp p17/test2/get_gun.cpp
-        p17/test2/peeker.cpp p17/test2/truncate.cpp
+        p18/test1/test1.cpp p18/test1/test1.h
+        p18/test2/test2.h p18/test2/test2.cpp p18/test2/useless.h p18/test2/useless.cpp
+        p18/test2/stdmove.cpp
 
-        p17/test3/test3.h p17/test3/fileio.cpp p17/test3/count.cpp
-        p17/test3/append.cpp p17/test3/binary.cpp p17/test3/random.cpp
-        p17/test3/tmpname.cpp
+        p18/test4/lambda0.cpp p18/test4/lambda0.h
 
-        p17/test4/test4.h p17/test4/strout.cpp p17/test4/strin.cpp
-
-        p17/test5/test.h p17/test5/test1.cpp p17/test5/test2.cpp p17/test5/test3.cpp
-        p17/test5/test4.cpp p17/test5/test5.cpp p17/test5/test6.cpp
-        p17/test5/emp2.h p17/test5/emp2.cpp p17/test5/test7.cpp
-
-        main/mainProcess.cpp )
+        main/mainProcess.cpp p18/test4/lambda1.cpp p18/test5/somedefs.h p18/test5/test5.h p18/test5/callable.cpp p18/test5/wrapped.cpp)
