@@ -34,7 +34,10 @@
 //#include "../p18/test1/test1.h"
 //#include "../p18/test2/test2.h"
 //#include "../p18/test4/lambda0.h"
-#include "../p18/test5/test5.h"
+// #include "../p18/test5/test5.h"
+// #include "../p18/test6/test6.h"
+// #include "../p18/test8/test8.h"
+#include "../p18/test9/test9.h"
 
 int main(int argc, char * argv[]){
 
@@ -131,5 +134,10 @@ int main(int argc, char * argv[]){
 //    mian_lanbda0();
 //    mian_lanbda1();
 //     main_callable();
-     main_wrapped();
+    //  main_wrapped();
+    // main_variadic1();
+    // main_lexcast();
+//    main_p18test1();
+//main_p18test2();
+main_p18test4();
 }

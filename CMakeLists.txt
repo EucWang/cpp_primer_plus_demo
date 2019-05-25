@@ -3,6 +3,10 @@ project(cpp_primer_plus_demo)
 
 set(CMAKE_CXX_STANDARD 14)
 
+# 引入boost库
+find_package(Boost 1.68 COMPONENTS system filesystem REQUIRED)
+include_directories(${Boost_INCLUDE_DIRS})
+
 include_directories(.)
 include_directories(p1)
 include_directories(p10)
@@ -95,6 +99,10 @@ include_directories(p17/test5)
 include_directories(p18/test1)
 include_directories(p18/test2)
 include_directories(p18/test4)
+include_directories(p18/test5)
+include_directories(p18/test6)
+include_directories(p18/test8)
+include_directories(p18/test9)
 
 add_executable(cpp_primer_plus_demo
         # p1/myfirst.cpp
@@ -539,5 +547,13 @@ add_executable(cpp_primer_plus_demo
         p18/test2/stdmove.cpp
 
         p18/test4/lambda0.cpp p18/test4/lambda0.h
+        p18/test4/lambda1.cpp p18/test5/somedefs.h p18/test5/test5.h p18/test5/callable.cpp p18/test5/wrapped.cpp
 
-        main/mainProcess.cpp p18/test4/lambda1.cpp p18/test5/somedefs.h p18/test5/test5.h p18/test5/callable.cpp p18/test5/wrapped.cpp)
+        p18/test6/variadic1.cpp p18/test6/test6.h
+        p18/test8/test8.h p18/test8/lexcast.cpp
+
+        p18/test9/test9.h p18/test9/test1.cpp
+        p18/test9/test2.cpp p18/test9/test3.cpp
+        p18/test9/test4.cpp
+
+        main/mainProcess.cpp )
