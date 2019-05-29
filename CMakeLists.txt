@@ -8,101 +8,102 @@ find_package(Boost 1.68 COMPONENTS system filesystem REQUIRED)
 include_directories(${Boost_INCLUDE_DIRS})
 
 include_directories(.)
-include_directories(p1)
-include_directories(p10)
-include_directories(p10/10.1)
-include_directories(p10/10.10)
-include_directories(p10/10.11.test1)
-include_directories(p10/10.11.test2)
-include_directories(p10/10.11.test3)
-include_directories(p10/10.11.test4)
-include_directories(p10/10.11.test5)
-include_directories(p10/10.11.test6)
-include_directories(p10/10.11.test7)
-include_directories(p10/10.11.test8)
-include_directories(p11)
-include_directories(p11/11.1)
-include_directories(p11/11.2)
-include_directories(p11/11.3)
-include_directories(p11/11.4)
-include_directories(p11/11.5)
-include_directories(p11/11.6)
-include_directories(p11/11.7)
-include_directories(p11/11.9)
-include_directories(p11/11.9/test1)
-include_directories(p11/11.9/test2)
-include_directories(p11/11.9/test3)
-include_directories(p11/11.9/test4)
-include_directories(p11/11.9/test5)
-include_directories(p11/11.9/test6)
-include_directories(p11/11.9/test7)
-include_directories(p12)
-include_directories(p12/test1)
-include_directories(p12/test10)
-include_directories(p12/test2)
-include_directories(p12/test3)
-include_directories(p12/test4)
-include_directories(p12/test5)
-include_directories(p12/test6)
-include_directories(p12/test7)
-include_directories(p12/test8)
-include_directories(p12/test9)
-include_directories(p13)
-include_directories(p13/test1)
-include_directories(p13/test2)
-include_directories(p13/test3)
-include_directories(p13/test4)
-include_directories(p13/test5)
-include_directories(p13/test6)
-include_directories(p13/test7)
-include_directories(p13/test8)
-include_directories(p13/test9)
-include_directories(p14)
-include_directories(p14/test1)
-include_directories(p14/test10)
-include_directories(p14/test11)
-include_directories(p14/test12)
-include_directories(p14/test13)
-include_directories(p14/test14)
-include_directories(p14/test2)
-include_directories(p14/test3)
-include_directories(p14/test4)
-include_directories(p14/test5)
-include_directories(p14/test6)
-include_directories(p14/test7)
-include_directories(p14/test8)
-include_directories(p14/test9)
-include_directories(p2)
-include_directories(p3)
-include_directories(p4)
-include_directories(p5)
-include_directories(p6)
-include_directories(p7)
-include_directories(p8)
-include_directories(p9)
-include_directories(p9/9.1)
-include_directories(p9/9.10)
-include_directories(p9/9.11)
-include_directories(p9/9.12.test1)
-include_directories(p9/9.12.test2)
-include_directories(p9/9.12.test3)
-include_directories(p9/9.12.test4)
-include_directories(p9/9.2)
-include_directories(p9/9.5)
-include_directories(p9/9.7)
-include_directories(p9/9.9)
-include_directories(p17/test1)
-include_directories(p17/test2)
-include_directories(p17/test3)
-include_directories(p17/test4)
-include_directories(p17/test5)
-include_directories(p18/test1)
-include_directories(p18/test2)
-include_directories(p18/test4)
-include_directories(p18/test5)
-include_directories(p18/test6)
-include_directories(p18/test8)
-include_directories(p18/test9)
+include_directories(cppprimerplus/p1)
+include_directories(cppprimerplus/p10)
+include_directories(cppprimerplus/p10/10.1)
+include_directories(cppprimerplus/p10/10.10)
+include_directories(cppprimerplus/p10/10.11.test1)
+include_directories(cppprimerplus/p10/10.11.test2)
+include_directories(cppprimerplus/p10/10.11.test3)
+include_directories(cppprimerplus/p10/10.11.test4)
+include_directories(cppprimerplus/p10/10.11.test5)
+include_directories(cppprimerplus/p10/10.11.test6)
+include_directories(cppprimerplus/p10/10.11.test7)
+include_directories(cppprimerplus/p10/10.11.test8)
+include_directories(cppprimerplus/p11)
+include_directories(cppprimerplus/p11/11.1)
+include_directories(cppprimerplus/p11/11.2)
+include_directories(cppprimerplus/p11/11.3)
+include_directories(cppprimerplus/p11/11.4)
+include_directories(cppprimerplus/p11/11.5)
+include_directories(cppprimerplus/p11/11.6)
+include_directories(cppprimerplus/p11/11.7)
+include_directories(cppprimerplus/p11/11.9)
+include_directories(cppprimerplus/p11/11.9/test1)
+include_directories(cppprimerplus/p11/11.9/test2)
+include_directories(cppprimerplus/p11/11.9/test3)
+include_directories(cppprimerplus/p11/11.9/test4)
+include_directories(cppprimerplus/p11/11.9/test5)
+include_directories(cppprimerplus/p11/11.9/test6)
+include_directories(cppprimerplus/p11/11.9/test7)
+include_directories(cppprimerplus/p12)
+include_directories(cppprimerplus/p12/test1)
+include_directories(cppprimerplus/p12/test10)
+include_directories(cppprimerplus/p12/test2)
+include_directories(cppprimerplus/p12/test3)
+include_directories(cppprimerplus/p12/test4)
+include_directories(cppprimerplus/p12/test5)
+include_directories(cppprimerplus/p12/test6)
+include_directories(cppprimerplus/p12/test7)
+include_directories(cppprimerplus/p12/test8)
+include_directories(cppprimerplus/p12/test9)
+include_directories(cppprimerplus/p13)
+include_directories(cppprimerplus/p13/test1)
+include_directories(cppprimerplus/p13/test2)
+include_directories(cppprimerplus/p13/test3)
+include_directories(cppprimerplus/p13/test4)
+include_directories(cppprimerplus/p13/test5)
+include_directories(cppprimerplus/p13/test6)
+include_directories(cppprimerplus/p13/test7)
+include_directories(cppprimerplus/p13/test8)
+include_directories(cppprimerplus/p13/test9)
+include_directories(cppprimerplus/p14)
+include_directories(cppprimerplus/p14/test1)
+include_directories(cppprimerplus/p14/test10)
+include_directories(cppprimerplus/p14/test11)
+include_directories(cppprimerplus/p14/test12)
+include_directories(cppprimerplus/p14/test13)
+include_directories(cppprimerplus/p14/test14)
+include_directories(cppprimerplus/p14/test2)
+include_directories(cppprimerplus/p14/test3)
+include_directories(cppprimerplus/p14/test4)
+include_directories(cppprimerplus/p14/test5)
+include_directories(cppprimerplus/p14/test6)
+include_directories(cppprimerplus/p14/test7)
+include_directories(cppprimerplus/p14/test8)
+include_directories(cppprimerplus/p14/test9)
+include_directories(cppprimerplus/p2)
+include_directories(cppprimerplus/p3)
+include_directories(cppprimerplus/p4)
+include_directories(cppprimerplus/p5)
+include_directories(cppprimerplus/p6)
+include_directories(cppprimerplus/p7)
+include_directories(cppprimerplus/p8)
+include_directories(cppprimerplus/p9)
+include_directories(cppprimerplus/p9/9.1)
+include_directories(cppprimerplus/p9/9.10)
+include_directories(cppprimerplus/p9/9.11)
+include_directories(cppprimerplus/p9/9.12.test1)
+include_directories(cppprimerplus/p9/9.12.test2)
+include_directories(cppprimerplus/p9/9.12.test3)
+include_directories(cppprimerplus/p9/9.12.test4)
+include_directories(cppprimerplus/p9/9.2)
+include_directories(cppprimerplus/p9/9.5)
+include_directories(cppprimerplus/p9/9.7)
+include_directories(cppprimerplus/p9/9.9)
+include_directories(cppprimerplus/p17/test1)
+include_directories(cppprimerplus/p17/test2)
+include_directories(cppprimerplus/p17/test3)
+include_directories(cppprimerplus/p17/test4)
+include_directories(cppprimerplus/p17/test5)
+include_directories(cppprimerplus/p18/test1)
+include_directories(cppprimerplus/p18/test2)
+include_directories(cppprimerplus/p18/test4)
+include_directories(cppprimerplus/p18/test5)
+include_directories(cppprimerplus/p18/test6)
+include_directories(cppprimerplus/p18/test8)
+include_directories(cppprimerplus/p18/test9)
+include_directories(understandingcpp11/p2)
 
 add_executable(cpp_primer_plus_demo
         # p1/myfirst.cpp
@@ -542,18 +543,39 @@ add_executable(cpp_primer_plus_demo
 #        p17/test5/test4.cpp p17/test5/test5.cpp p17/test5/test6.cpp
 #        p17/test5/emp2.h p17/test5/emp2.cpp p17/test5/test7.cpp
 
-        p18/test1/test1.cpp p18/test1/test1.h
-        p18/test2/test2.h p18/test2/test2.cpp p18/test2/useless.h p18/test2/useless.cpp
-        p18/test2/stdmove.cpp
+        # cppprimerplus/p18/test1/test1.cpp 
+        # cppprimerplus/p18/test1/test1.h
+        # cppprimerplus/p18/test2/test2.h 
+        # cppprimerplus/p18/test2/test2.cpp 
+        # cppprimerplus/p18/test2/useless.h 
+        # cppprimerplus/p18/test2/useless.cpp
+        # cppprimerplus/p18/test2/stdmove.cpp
+        # cppprimerplus/p18/test4/lambda0.cpp 
+        # cppprimerplus/p18/test4/lambda0.h
+        # cppprimerplus/p18/test4/lambda1.cpp 
+        # cppprimerplus/p18/test5/somedefs.h 
+        # cppprimerplus/p18/test5/test5.h 
+        # cppprimerplus/p18/test5/callable.cpp 
+        # cppprimerplus/p18/test5/wrapped.cpp
+        # cppprimerplus/p18/test6/variadic1.cpp 
+        # cppprimerplus/p18/test6/test6.h
+        # cppprimerplus/p18/test8/test8.h 
+        # cppprimerplus/p18/test8/lexcast.cpp
+        # cppprimerplus/p18/test9/test9.h 
+        # cppprimerplus/p18/test9/test1.cpp
+        # cppprimerplus/p18/test9/test2.cpp 
+        # cppprimerplus/p18/test9/test3.cpp
+        # cppprimerplus/p18/test9/test4.cpp
 
-        p18/test4/lambda0.cpp p18/test4/lambda0.h
-        p18/test4/lambda1.cpp p18/test5/somedefs.h p18/test5/test5.h p18/test5/callable.cpp p18/test5/wrapped.cpp
-
-        p18/test6/variadic1.cpp p18/test6/test6.h
-        p18/test8/test8.h p18/test8/lexcast.cpp
-
-        p18/test9/test9.h p18/test9/test1.cpp
-        p18/test9/test2.cpp p18/test9/test3.cpp
-        p18/test9/test4.cpp
+        understandingcpp11/p2/test2.h
+        understandingcpp11/p2/test2_1.cpp
+        understandingcpp11/p2/test2_2.cpp
+        understandingcpp11/p2/test2_3.cpp
+        understandingcpp11/p2/test2_4.cpp
+        understandingcpp11/p2/test2_5.cpp
+        understandingcpp11/p2/test2_6.cpp
+        understandingcpp11/p2/test2_7.cpp
+        understandingcpp11/p2/test2_8.cpp
+        understandingcpp11/p2/test2_9.cpp
 
         main/mainProcess.cpp )

@@ -18,26 +18,27 @@
 // #include "p15/test9/error6.h"
 // #include "p15/test10/error7.h"
 // #include "p15/test11/use_sales2.h"
-// #include "../p16/test1/str1.h"
-// #include "../p16/test2/smrtptrs.h"
-// #include  "../p16/test3/vect.h"
-// #include "../p16/test4/test_iterator.h"
-// #include "../p16/test5/functor.h"
-// #include "../p16/test6/strgst.h"
-// #include "../p16/test7/otherlib.h"
-// #include "../p16/test8/test16.h"
-// #include "../p17/test1/test1.h"
-// #include "../p17/test2/test2.h"
-// #include "../p17/test3/test3.h"
-// #include "../p17/test4/test4.h"
-//#include "../p17/test5/test.h"
-//#include "../p18/test1/test1.h"
-//#include "../p18/test2/test2.h"
-//#include "../p18/test4/lambda0.h"
-// #include "../p18/test5/test5.h"
-// #include "../p18/test6/test6.h"
-// #include "../p18/test8/test8.h"
-#include "../p18/test9/test9.h"
+// #include "../cppprimerplus/p16/test1/str1.h"
+// #include "../cppprimerplus/p16/test2/smrtptrs.h"
+// #include  "../cppprimerplus/p16/test3/vect.h"
+// #include "../cppprimerplus/p16/test4/test_iterator.h"
+// #include "../cppprimerplus/p16/test5/functor.h"
+// #include "../cppprimerplus/p16/test6/strgst.h"
+// #include "../cppprimerplus/p16/test7/otherlib.h"
+// #include "../cppprimerplus/p16/test8/test16.h"
+// #include "../cppprimerplus/p17/test1/test1.h"
+// #include "../cppprimerplus/p17/test2/test2.h"
+// #include "../cppprimerplus/p17/test3/test3.h"
+// #include "../cppprimerplus/p17/test4/test4.h"
+//#include "../cppprimerplus/p17/test5/test.h"
+//#include "../cppprimerplus/p18/test1/test1.h"
+//#include "../cppprimerplus/p18/test2/test2.h"
+//#include "../cppprimerplus/p18/test4/lambda0.h"
+// #include "../cppprimerplus/p18/test5/test5.h"
+// #include "../cppprimerplus/p18/test6/test6.h"
+// #include "../cppprimerplus/p18/test8/test8.h"
+// #include "../cppprimerplus/p18/test9/test9.h"
+#include "../understandingcpp11/p2/test2.h"
 
 int main(int argc, char * argv[]){
 
@@ -139,5 +140,14 @@ int main(int argc, char * argv[]){
     // main_lexcast();
 //    main_p18test1();
 //main_p18test2();
-main_p18test4();
+// main_p18test4();
+// testp2_1();
+// testp2_2();
+// testp2_3();
+// testp2_4();
+    // testp2_5();
+    // testp2_6();
+    // testp2_7();
+    // testp2_8();
+    testp2_9();
 }
