@@ -149,5 +149,13 @@ int main(int argc, char * argv[]){
     // testp2_6();
     // testp2_7();
     // testp2_8();
-    testp2_9();
+    // testp2_9();
+    // testp2_12();
+    // testp2_13();
+    // testp2_16();
+    // testp2_17();
+    // testp2_18();
+    // testp2_19();
+    // testp2_21();
+    testp2_22();
 }
