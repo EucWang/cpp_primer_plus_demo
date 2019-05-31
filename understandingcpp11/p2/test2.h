@@ -1,6 +1,9 @@
 #ifndef TEST2_H_
 #define TEST2_H_
 
+#include <iostream>
+template <typename T> void fun(T t) {std::cout << "fun() " << t << std::endl;}
+
 
 void testp2_1();
 int testp2_2();
@@ -19,4 +22,12 @@ int testp2_18();
 int testp2_19();
 int testp2_21();
 int testp2_22();
+int testp2_23();
+int testp2_25();
+int testp2_26();
+int testp2_27();
+void testp2_28_1();
+int testp2_28_3();
+int testp2_28();
+int testp2_30();
 #endif

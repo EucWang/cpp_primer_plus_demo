@@ -586,5 +586,13 @@ add_executable(cpp_primer_plus_demo
         understandingcpp11/p2/test2_19.cpp
         understandingcpp11/p2/test2_21.cpp
         understandingcpp11/p2/test2_22.cpp
+        understandingcpp11/p2/test2_23.cpp
+        understandingcpp11/p2/test2_25.cpp
+        understandingcpp11/p2/test2_26.cpp
+        understandingcpp11/p2/test2_27.cpp
+        understandingcpp11/p2/test2_28_1.cpp
+        understandingcpp11/p2/test2_28_2.cpp
+        understandingcpp11/p2/test2_28_3.cpp
+        understandingcpp11/p2/test2_30.cpp
 
         main/mainProcess.cpp )
