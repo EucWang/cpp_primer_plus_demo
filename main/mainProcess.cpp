@@ -38,7 +38,8 @@
 // #include "../cppprimerplus/p18/test6/test6.h"
 // #include "../cppprimerplus/p18/test8/test8.h"
 // #include "../cppprimerplus/p18/test9/test9.h"
-#include "../understandingcpp11/p2/test2.h"
+// #include "../understandingcpp11/p2/test2.h"
+#include "../understandingcpp11/p3/test3.h"
 
 int main(int argc, char * argv[]){
 
@@ -165,5 +166,14 @@ int main(int argc, char * argv[]){
     // testp2_28();
     // testp2_28_1();
     // testp2_28_3();
-    testp2_30();
+    // testp2_30();
+    // testp3_1();
+    // testp3_2();
+    // testp3_3();
+    // testp3_4();
+    // testp3_5();
+    // testp3_6();
+    // testp3_7();
+    // testp3_8();
+    testp3_9();
 }

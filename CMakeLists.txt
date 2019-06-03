@@ -104,6 +104,7 @@ include_directories(cppprimerplus/p18/test6)
 include_directories(cppprimerplus/p18/test8)
 include_directories(cppprimerplus/p18/test9)
 include_directories(understandingcpp11/p2)
+include_directories(understandingcpp11/p3)
 
 add_executable(cpp_primer_plus_demo
         # p1/myfirst.cpp
@@ -567,32 +568,43 @@ add_executable(cpp_primer_plus_demo
         # cppprimerplus/p18/test9/test3.cpp
         # cppprimerplus/p18/test9/test4.cpp
 
-        understandingcpp11/p2/test2.h
-        understandingcpp11/p2/test2_1.cpp
-        understandingcpp11/p2/test2_2.cpp
-        understandingcpp11/p2/test2_3.cpp
-        understandingcpp11/p2/test2_4.cpp
-        understandingcpp11/p2/test2_5.cpp
-        understandingcpp11/p2/test2_6.cpp
-        understandingcpp11/p2/test2_7.cpp
-        understandingcpp11/p2/test2_8.cpp
-        understandingcpp11/p2/test2_9.cpp
-        understandingcpp11/p2/test2_12.cpp
-        understandingcpp11/p2/test2_13.cpp
-        understandingcpp11/p2/test2_14.cpp
-        understandingcpp11/p2/test2_16.cpp
-        understandingcpp11/p2/test2_17.cpp
-        understandingcpp11/p2/test2_18.cpp
-        understandingcpp11/p2/test2_19.cpp
-        understandingcpp11/p2/test2_21.cpp
-        understandingcpp11/p2/test2_22.cpp
-        understandingcpp11/p2/test2_23.cpp
-        understandingcpp11/p2/test2_25.cpp
-        understandingcpp11/p2/test2_26.cpp
-        understandingcpp11/p2/test2_27.cpp
-        understandingcpp11/p2/test2_28_1.cpp
-        understandingcpp11/p2/test2_28_2.cpp
-        understandingcpp11/p2/test2_28_3.cpp
-        understandingcpp11/p2/test2_30.cpp
+        # understandingcpp11/p2/test2.h
+        # understandingcpp11/p2/test2_1.cpp
+        # understandingcpp11/p2/test2_2.cpp
+        # understandingcpp11/p2/test2_3.cpp
+        # understandingcpp11/p2/test2_4.cpp
+        # understandingcpp11/p2/test2_5.cpp
+        # understandingcpp11/p2/test2_6.cpp
+        # understandingcpp11/p2/test2_7.cpp
+        # understandingcpp11/p2/test2_8.cpp
+        # understandingcpp11/p2/test2_9.cpp
+        # understandingcpp11/p2/test2_12.cpp
+        # understandingcpp11/p2/test2_13.cpp
+        # understandingcpp11/p2/test2_14.cpp
+        # understandingcpp11/p2/test2_16.cpp
+        # understandingcpp11/p2/test2_17.cpp
+        # understandingcpp11/p2/test2_18.cpp
+        # understandingcpp11/p2/test2_19.cpp
+        # understandingcpp11/p2/test2_21.cpp
+        # understandingcpp11/p2/test2_22.cpp
+        # understandingcpp11/p2/test2_23.cpp
+        # understandingcpp11/p2/test2_25.cpp
+        # understandingcpp11/p2/test2_26.cpp
+        # understandingcpp11/p2/test2_27.cpp
+        # understandingcpp11/p2/test2_28_1.cpp
+        # understandingcpp11/p2/test2_28_2.cpp
+        # understandingcpp11/p2/test2_28_3.cpp
+        # understandingcpp11/p2/test2_30.cpp
+
+        understandingcpp11/p3/test3.h
+        understandingcpp11/p3/testp3_1.cpp
+        understandingcpp11/p3/testp3_2.cpp
+        understandingcpp11/p3/testp3_3.cpp
+        understandingcpp11/p3/testp3_4.cpp
+        understandingcpp11/p3/testp3_5.cpp
+        understandingcpp11/p3/testp3_6.cpp
+        understandingcpp11/p3/testp3_7.cpp
+        understandingcpp11/p3/testp3_8.cpp
+        understandingcpp11/p3/testp3_9.cpp
 
         main/mainProcess.cpp )
