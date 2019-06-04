@@ -606,5 +606,13 @@ add_executable(cpp_primer_plus_demo
         understandingcpp11/p3/testp3_7.cpp
         understandingcpp11/p3/testp3_8.cpp
         understandingcpp11/p3/testp3_9.cpp
+        understandingcpp11/p3/testp3_10.cpp
+        understandingcpp11/p3/testp3_11.cpp
+        understandingcpp11/p3/testp3_12.cpp
+        understandingcpp11/p3/testp3_13.cpp
+        understandingcpp11/p3/testp3_14.cpp
+        understandingcpp11/p3/testp3_15.cpp
+        understandingcpp11/p3/testp3_16.cpp
+        understandingcpp11/p3/testp3_17.cpp
 
         main/mainProcess.cpp )
