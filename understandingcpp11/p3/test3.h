@@ -18,5 +18,11 @@ void testp3_14();
 void testp3_15();
 void testp3_16();
 void testp3_17();
+void testp3_44();
+void testp3_47();
+void testp3_48();
+void testp3_49();
+void testp3_50();
+void testp3_51();
 
 #endif
