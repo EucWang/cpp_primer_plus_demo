@@ -105,6 +105,8 @@ include_directories(cppprimerplus/p18/test8)
 include_directories(cppprimerplus/p18/test9)
 include_directories(understandingcpp11/p2)
 include_directories(understandingcpp11/p3)
+include_directories(understandingcpp11/p4)
+include_directories(understandingcpp11/p6)
 
 add_executable(cpp_primer_plus_demo
         # p1/myfirst.cpp
@@ -596,29 +598,47 @@ add_executable(cpp_primer_plus_demo
         # understandingcpp11/p2/test2_28_3.cpp
         # understandingcpp11/p2/test2_30.cpp
 
-        understandingcpp11/p3/test3.h
-        understandingcpp11/p3/testp3_1.cpp
-        understandingcpp11/p3/testp3_2.cpp
-        understandingcpp11/p3/testp3_3.cpp
-        understandingcpp11/p3/testp3_4.cpp
-        understandingcpp11/p3/testp3_5.cpp
-        understandingcpp11/p3/testp3_6.cpp
-        understandingcpp11/p3/testp3_7.cpp
-        understandingcpp11/p3/testp3_8.cpp
-        understandingcpp11/p3/testp3_9.cpp
-        understandingcpp11/p3/testp3_10.cpp
-        understandingcpp11/p3/testp3_11.cpp
-        understandingcpp11/p3/testp3_12.cpp
-        understandingcpp11/p3/testp3_13.cpp
-        understandingcpp11/p3/testp3_14.cpp
-        understandingcpp11/p3/testp3_15.cpp
-        understandingcpp11/p3/testp3_16.cpp
-        understandingcpp11/p3/testp3_17.cpp
-        understandingcpp11/p3/testp3_44.cpp
-        understandingcpp11/p3/testp3_47.cpp
-        understandingcpp11/p3/testp3_48.cpp
-        understandingcpp11/p3/testp3_49.cpp
-        understandingcpp11/p3/testp3_50.cpp
-        understandingcpp11/p3/testp3_51.cpp
+        # understandingcpp11/p3/test3.h
+        # understandingcpp11/p3/testp3_1.cpp
+        # understandingcpp11/p3/testp3_2.cpp
+        # understandingcpp11/p3/testp3_3.cpp
+        # understandingcpp11/p3/testp3_4.cpp
+        # understandingcpp11/p3/testp3_5.cpp
+        # understandingcpp11/p3/testp3_6.cpp
+        # understandingcpp11/p3/testp3_7.cpp
+        # understandingcpp11/p3/testp3_8.cpp
+        # understandingcpp11/p3/testp3_9.cpp
+        # understandingcpp11/p3/testp3_10.cpp
+        # understandingcpp11/p3/testp3_11.cpp
+        # understandingcpp11/p3/testp3_12.cpp
+        # understandingcpp11/p3/testp3_13.cpp
+        # understandingcpp11/p3/testp3_14.cpp
+        # understandingcpp11/p3/testp3_15.cpp
+        # understandingcpp11/p3/testp3_16.cpp
+        # understandingcpp11/p3/testp3_17.cpp
+        # understandingcpp11/p3/testp3_44.cpp
+        # understandingcpp11/p3/testp3_47.cpp
+        # understandingcpp11/p3/testp3_48.cpp
+        # understandingcpp11/p3/testp3_49.cpp
+        # understandingcpp11/p3/testp3_50.cpp
+        # understandingcpp11/p3/testp3_51.cpp
+
+        # understandingcpp11/p4/test4.h
+        # understandingcpp11/p4/testp4_4.cpp
+        # understandingcpp11/p4/testp4_16.cpp
+        # understandingcpp11/p4/testp4_17.cpp
+        # understandingcpp11/p4/testp4_18.cpp
+
+        # understandingcpp11/p6/test6.h
+        # understandingcpp11/p6/testp6_8.cpp
+        # understandingcpp11/p6/testp6_12.cpp
+        # understandingcpp11/p6/testp6_18.cpp
+        # understandingcpp11/p6/testp6_19.cpp
+        # understandingcpp11/p6/testp6_20.cpp
+
+        understandingcpp11/p8/test8.h
+        understandingcpp11/p8/testp8_1.cpp
+        understandingcpp11/p8/testp8_2.cpp
+        understandingcpp11/p8/testp8_3.cpp
 
         main/mainProcess.cpp )
